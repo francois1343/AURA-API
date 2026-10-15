@@ -10,14 +10,25 @@ $command = $argv[1] ?? '';
 $database = Database::connection();
 
 if ($command === 'migrate') {
-    $migration = file_get_contents(dirname(__DIR__) . '/database/migrations/001_create_catalog.sql');
+    $migrationPaths = glob(dirname(__DIR__) . '/database/migrations/*.sql');
 
-    if ($migration === false) {
-        throw new RuntimeException('Migration introuvable.');
+    if ($migrationPaths === false || $migrationPaths === []) {
+        throw new RuntimeException('Aucune migration trouvée.');
     }
 
-    $database->exec($migration);
-    fwrite(STDOUT, "Migration du catalogue terminée.\n");
+    sort($migrationPaths, SORT_STRING);
+
+    foreach ($migrationPaths as $migrationPath) {
+        $migration = file_get_contents($migrationPath);
+
+        if ($migration === false) {
+            throw new RuntimeException(sprintf('Migration illisible : %s.', basename($migrationPath)));
+        }
+
+        $database->exec($migration);
+        fwrite(STDOUT, sprintf("Migration appliquée : %s.\n", basename($migrationPath)));
+    }
+
     exit(0);
 }
 
@@ -52,11 +63,11 @@ if ($command === 'seed') {
             'INSERT INTO jobs (
                 id, sector_id, title, search_query, badge, summary, description,
                 tasks, environment, schedule, access, qualities, photo_url,
-                photo_alt, forem_url, verified_at
+                photo_alt, forem_url, verified_at, labour_market
              ) VALUES (
                 :id, :sector_id, :title, :search_query, :badge, :summary, :description,
                 :tasks, :environment, :schedule, :access, :qualities, :photo_url,
-                :photo_alt, :forem_url, :verified_at
+                :photo_alt, :forem_url, :verified_at, :labour_market
              ) ON DUPLICATE KEY UPDATE
                 sector_id = VALUES(sector_id), title = VALUES(title),
                 search_query = VALUES(search_query), badge = VALUES(badge),
@@ -65,7 +76,7 @@ if ($command === 'seed') {
                 schedule = VALUES(schedule), access = VALUES(access),
                 qualities = VALUES(qualities), photo_url = VALUES(photo_url),
                 photo_alt = VALUES(photo_alt), forem_url = VALUES(forem_url),
-                verified_at = VALUES(verified_at)',
+                verified_at = VALUES(verified_at), labour_market = VALUES(labour_market)',
         );
 
         foreach ($seed['jobs'] as $job) {
@@ -86,6 +97,7 @@ if ($command === 'seed') {
                 ':photo_alt' => $job['photoAlt'],
                 ':forem_url' => $job['foremUrl'],
                 ':verified_at' => $job['verifiedAt'] ?? null,
+                ':labour_market' => json_encode($job['labourMarket'], JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR),
             ]);
         }
 

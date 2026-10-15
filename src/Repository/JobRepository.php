@@ -28,7 +28,8 @@ final class JobRepository
             jobs.photo_url AS photo,
             jobs.photo_alt AS photoAlt,
             jobs.forem_url AS foremUrl,
-            jobs.verified_at AS verifiedAt
+            jobs.verified_at AS verifiedAt,
+            jobs.labour_market AS labourMarket
         FROM jobs
         INNER JOIN sectors ON sectors.id = jobs.sector_id
         SQL;
@@ -103,6 +104,9 @@ final class JobRepository
     {
         $job['tasks'] = json_decode((string) $job['tasks'], true, flags: JSON_THROW_ON_ERROR);
         $job['qualities'] = json_decode((string) $job['qualities'], true, flags: JSON_THROW_ON_ERROR);
+        $job['labourMarket'] = $job['labourMarket']
+            ? json_decode((string) $job['labourMarket'], true, flags: JSON_THROW_ON_ERROR)
+            : null;
         $job['badge'] = $job['badge'] ?: null;
         $job['verifiedAt'] = $job['verifiedAt'] ?: null;
 

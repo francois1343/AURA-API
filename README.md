@@ -1,7 +1,8 @@
 # AURA API
 
 API indépendante du frontend AURA. Cette première version expose le catalogue
-des 28 secteurs et des 28 métiers depuis MariaDB.
+des 28 secteurs et des 112 métiers depuis MariaDB, avec quatre métiers par
+secteur.
 
 ## Prérequis
 
@@ -53,7 +54,7 @@ Succès :
 ```json
 {
   "data": [],
-  "meta": { "total": 28, "limit": 20, "offset": 0 }
+  "meta": { "total": 112, "limit": 20, "offset": 0 }
 }
 ```
 
@@ -73,6 +74,11 @@ Erreur :
 ```bash
 php scripts/validate.php
 ```
+
+La validation contrôle également la répartition de quatre métiers par secteur,
+les liens officiels Forem, les dates de vérification et les statuts du marché du
+travail. Chaque fiche expose `labourMarket` avec le statut, le périmètre,
+l’année et la source utilisée.
 
 ## Connexion depuis AURA
 

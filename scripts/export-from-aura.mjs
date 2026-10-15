@@ -33,7 +33,8 @@ const catalog = {
     photo: job.photo,
     photoAlt: job.photoAlt,
     foremUrl: job.foremUrl,
-    verifiedAt: null,
+    verifiedAt: job.verifiedAt,
+    labourMarket: job.labourMarket,
   })),
 }
 

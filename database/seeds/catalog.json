@@ -231,7 +231,7 @@
       "sectorId": "action-sociale",
       "title": "Assistant·e social·e",
       "searchQuery": "assistant social",
-      "badge": "",
+      "badge": "Métier en pénurie",
       "summary": "Écouter, informer et accompagner des personnes dans leurs démarches sociales et administratives.",
       "description": "Écouter, informer et accompagner des personnes dans leurs démarches sociales et administratives.",
       "tasks": [
@@ -251,7 +251,13 @@
       "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Entretien d’accompagnement entre deux personnes",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/assistant-social-assistante-sociale.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
     },
     {
       "id": "animateur-socioculturel",
@@ -278,14 +284,20 @@
       "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Groupe réuni autour d’un projet collectif",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/animateur-socioculturel-animatrice-socioculturelle.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/animateur-socioculturel-animatrice-socioculturelle.html"
+      }
     },
     {
       "id": "agent-administratif-public",
       "sectorId": "administration-publique",
       "title": "Agent·e administratif·ve",
       "searchQuery": "administratif",
-      "badge": "",
+      "badge": "Nombreuses opportunités",
       "summary": "Traiter des dossiers, accueillir les usagers et assurer le suivi administratif d’un service public.",
       "description": "Traiter des dossiers, accueillir les usagers et assurer le suivi administratif d’un service public.",
       "tasks": [
@@ -305,7 +317,13 @@
       "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Espace de travail administratif",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-administratif-polyvalent-agente-administrative-polyvalente.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "opportunity",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-enquete-BMO-2026.pdf"
+      }
     },
     {
       "id": "mecanicien-aeronautique",
@@ -332,7 +350,13 @@
       "photo": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Avion stationné sur une piste",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/technicien-technicienne-de-maintenance-aeronautique.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/technicien-technicienne-de-maintenance-aeronautique.html"
+      }
     },
     {
       "id": "agent-espaces-verts",
@@ -360,7 +384,13 @@
       "photo": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Personne travaillant dans un jardin verdoyant",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-d-entretien-et-amenagement-des-jardins-et-des-espaces-verts.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-d-entretien-et-amenagement-des-jardins-et-des-espaces-verts.html"
+      }
     },
     {
       "id": "mecanicien-automobile",
@@ -388,14 +418,20 @@
       "photo": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Mécanicien travaillant sous le capot d’une voiture",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/mecanicien-mecanicienne-pour-voitures-et-vehicules-utilitaires-legers---3-5-t.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
     },
     {
       "id": "menuisier",
       "sectorId": "bois-carton",
       "title": "Menuisier·ère",
       "searchQuery": "menuisier",
-      "badge": "",
+      "badge": "Métier en pénurie",
       "summary": "Fabriquer, ajuster et poser des éléments en bois ou en matériaux dérivés.",
       "description": "Fabriquer, ajuster et poser des éléments en bois ou en matériaux dérivés.",
       "tasks": [
@@ -415,14 +451,20 @@
       "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Atelier de fabrication et de travail des matériaux",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/menuisier-menuisiere-d-atelier.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
     },
     {
       "id": "vendeur-magasin",
       "sectorId": "commerce-detail",
       "title": "Vendeur·euse en magasin",
       "searchQuery": "vendeur",
-      "badge": "",
+      "badge": "Nombreuses opportunités",
       "summary": "Accueillir, conseiller et accompagner les clients jusqu’à la vente d’un produit ou service.",
       "description": "Accueillir, conseiller et accompagner les clients jusqu’à la vente d’un produit ou service.",
       "tasks": [
@@ -442,7 +484,13 @@
       "photo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Intérieur d’un commerce de détail",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/vendeur-vendeuse-en-magasin.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "opportunity",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-enquete-BMO-2026.pdf"
+      }
     },
     {
       "id": "commercial-b2b",
@@ -469,7 +517,13 @@
       "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Professionnels réunis autour d’une table",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/delegue-commercial-deleguee-commerciale-grands-comptes-et-entreprises.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/delegue-commercial-deleguee-commerciale-grands-comptes-et-entreprises.html"
+      }
     },
     {
       "id": "electricien-installateur",
@@ -497,7 +551,13 @@
       "photo": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Professionnel intervenant sur une installation électrique",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/installateur-electricien-installatrice-electricienne.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
     },
     {
       "id": "formateur-adultes",
@@ -524,14 +584,20 @@
       "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Personnes participant à une séance de formation",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/formateur-formatrice-pour-adultes.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/formateur-formatrice-pour-adultes.html"
+      }
     },
     {
       "id": "technicien-traitement-eaux",
       "sectorId": "energie-environnement",
       "title": "Technicien·ne de traitement des eaux",
       "searchQuery": "eau",
-      "badge": "",
+      "badge": "Métier en pénurie",
       "summary": "Surveiller et régler les installations qui rendent l’eau utilisable ou traitent les eaux usées.",
       "description": "Surveiller et régler les installations qui rendent l’eau utilisable ou traitent les eaux usées.",
       "tasks": [
@@ -551,14 +617,20 @@
       "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Installation technique industrielle",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/technicien-technicienne-de-maintenance-de-la-distribution-et-de-l-assainissement-des-eaux.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
     },
     {
       "id": "comptable",
       "sectorId": "finances-assurances",
       "title": "Comptable",
       "searchQuery": "comptable",
-      "badge": "",
+      "badge": "Métier en pénurie",
       "summary": "Enregistrer, contrôler et analyser les opérations financières d’une organisation.",
       "description": "Enregistrer, contrôler et analyser les opérations financières d’une organisation.",
       "tasks": [
@@ -578,14 +650,20 @@
       "photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Documents et outils de gestion financière",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/assistant-assistante-comptable.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
     },
     {
       "id": "soudeur",
       "sectorId": "genie-mecanique",
       "title": "Soudeur·euse",
       "searchQuery": "soudeur",
-      "badge": "",
+      "badge": "Métier en pénurie",
       "summary": "Assembler durablement des pièces métalliques en appliquant le procédé de soudage adapté.",
       "description": "Assembler durablement des pièces métalliques en appliquant le procédé de soudage adapté.",
       "tasks": [
@@ -605,14 +683,20 @@
       "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Environnement industriel de fabrication",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/soudeur-soudeuse.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
     },
     {
       "id": "cuisinier",
       "sectorId": "horeca",
       "title": "Cuisinier·ère",
       "searchQuery": "cuisine",
-      "badge": "Nombreuses opportunités",
+      "badge": "",
       "summary": "Préparer les plats, organiser la production et garantir la qualité, l’hygiène et la sécurité alimentaire.",
       "description": "Le cuisinier ou la cuisinière prépare les ingrédients et les plats, organise son poste et travaille au rythme du service avec le reste de la brigade.",
       "tasks": [
@@ -633,7 +717,13 @@
       "photo": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Professionnel préparant un plat en cuisine",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/cuisinier-cuisiniere.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/cuisinier-cuisiniere.html"
+      }
     },
     {
       "id": "infographiste",
@@ -660,7 +750,13 @@
       "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Écran utilisé pour une création numérique",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/graphiste-infographiste.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/graphiste-infographiste.html"
+      }
     },
     {
       "id": "operateur-materiaux",
@@ -687,7 +783,13 @@
       "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Site industriel de production",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-production-materiaux-de-construction-et-prefabriques.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-production-materiaux-de-construction-et-prefabriques.html"
+      }
     },
     {
       "id": "developpeur-logiciels",
@@ -715,7 +817,13 @@
       "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Écran affichant du code dans un environnement de travail numérique",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/developpeur-developpeuse-de-logiciels.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
     },
     {
       "id": "agent-accueil-touristique",
@@ -742,7 +850,13 @@
       "photo": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Voyageur consultant une carte dans une ville",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-d-accueil.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-d-accueil.html"
+      }
     },
     {
       "id": "tapissier-garnisseur",
@@ -769,7 +883,13 @@
       "photo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Atelier présentant des matériaux et objets fabriqués",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/tapissier-garnisseur-tapissiere---garnisseuse.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/tapissier-garnisseur-tapissiere---garnisseuse.html"
+      }
     },
     {
       "id": "operateur-pharmaceutique",
@@ -796,7 +916,13 @@
       "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Équipements de production en environnement contrôlé",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-production-en-industrie-bio-pharmaceutique.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-production-en-industrie-bio-pharmaceutique.html"
+      }
     },
     {
       "id": "aide-soignant",
@@ -824,7 +950,13 @@
       "photo": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Professionnelle de la santé échangeant avec une patiente",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/aide-soignant-aide-soignante.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
     },
     {
       "id": "inspecteur-police",
@@ -851,7 +983,13 @@
       "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Équipe professionnelle en réunion opérationnelle",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/inspecteur-inspectrice-de-police.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/inspecteur-inspectrice-de-police.html"
+      }
     },
     {
       "id": "assistant-administratif",
@@ -878,14 +1016,20 @@
       "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Bureau organisé pour le travail administratif",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/assistant-assistante-de-direction.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/assistant-assistante-de-direction.html"
+      }
     },
     {
       "id": "coiffeur",
       "sectorId": "services-particuliers",
       "title": "Coiffeur·euse",
       "searchQuery": "coiffeur",
-      "badge": "",
+      "badge": "Métier en pénurie",
       "summary": "Conseiller les clients et réaliser des coupes, colorations et coiffures adaptées à leurs attentes.",
       "description": "Conseiller les clients et réaliser des coupes, colorations et coiffures adaptées à leurs attentes.",
       "tasks": [
@@ -905,7 +1049,13 @@
       "photo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Espace intérieur consacré au service des clients",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/coiffeur-coiffeuse.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
     },
     {
       "id": "conseiller-emploi",
@@ -932,14 +1082,20 @@
       "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Entretien professionnel entre deux personnes",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/conseiller-conseillere-en-insertion-professionnelle.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/conseiller-conseillere-en-insertion-professionnelle.html"
+      }
     },
     {
       "id": "operateur-alimentaire",
       "sectorId": "transformation-alimentaire",
       "title": "Opérateur·rice de production alimentaire",
       "searchQuery": "alimentaire",
-      "badge": "",
+      "badge": "Nombreuses opportunités",
       "summary": "Fabriquer et conditionner des produits alimentaires en respectant les recettes, l’hygiène et la qualité.",
       "description": "Fabriquer et conditionner des produits alimentaires en respectant les recettes, l’hygiène et la qualité.",
       "tasks": [
@@ -959,14 +1115,20 @@
       "photo": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Préparation de produits dans un environnement alimentaire",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-production-en-industrie-alimentaire.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "opportunity",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-enquete-BMO-2026.pdf"
+      }
     },
     {
       "id": "magasinier",
       "sectorId": "transport-logistique",
       "title": "Magasinier·ère",
       "searchQuery": "logistique",
-      "badge": "",
+      "badge": "Métier en pénurie",
       "summary": "Réceptionner, stocker, préparer et expédier les marchandises en assurant leur traçabilité.",
       "description": "Réceptionner, stocker, préparer et expédier les marchandises en assurant leur traçabilité.",
       "tasks": [
@@ -986,7 +1148,2785 @@
       "photo": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1400&q=82",
       "photoAlt": "Entrepôt logistique avec rayonnages et marchandises",
       "foremUrl": "https://www.leforem.be/infos-metiers/metiers/magasinier-magasiniere.html",
-      "verifiedAt": null
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "aide-familial",
+      "sectorId": "action-sociale",
+      "title": "Aide familial·e",
+      "searchQuery": "aide familiale domicile accompagnement",
+      "badge": "Métier en pénurie",
+      "summary": "Soutenir des personnes fragilisées dans les gestes du quotidien afin de préserver leur autonomie à domicile.",
+      "description": "Soutenir des personnes fragilisées dans les gestes du quotidien afin de préserver leur autonomie à domicile.",
+      "tasks": [
+        "Aider à organiser la vie quotidienne.",
+        "Préparer des repas et assurer une aide pratique.",
+        "Observer la situation et transmettre les informations utiles."
+      ],
+      "environment": "Services, associations, institutions ou domicile, avec un contact humain régulier et du travail en équipe.",
+      "schedule": "Horaires généralement de journée, parfois variables, en soirée ou le week-end selon le public et le service.",
+      "access": "Le niveau de diplôme et les éventuels agréments varient selon la fonction et le cadre d’exercice.",
+      "qualities": [
+        "Écoute",
+        "Bienveillance",
+        "Autonomie",
+        "Discrétion"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personnes réunies dans un cadre d’accompagnement ou de collaboration",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/aide-familial-familiale.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "educateur-accompagnateur",
+      "sectorId": "action-sociale",
+      "title": "Éducateur·rice-accompagnateur·rice",
+      "searchQuery": "éducateur accompagnateur social",
+      "badge": "Métier en pénurie",
+      "summary": "Accompagner des personnes dans leur développement, leur autonomie et leur participation à la vie sociale.",
+      "description": "Accompagner des personnes dans leur développement, leur autonomie et leur participation à la vie sociale.",
+      "tasks": [
+        "Construire un projet éducatif individualisé.",
+        "Animer des activités adaptées.",
+        "Collaborer avec les proches et les équipes spécialisées."
+      ],
+      "environment": "Services, associations, institutions ou domicile, avec un contact humain régulier et du travail en équipe.",
+      "schedule": "Horaires généralement de journée, parfois variables, en soirée ou le week-end selon le public et le service.",
+      "access": "Le niveau de diplôme et les éventuels agréments varient selon la fonction et le cadre d’exercice.",
+      "qualities": [
+        "Empathie",
+        "Patience",
+        "Cadre",
+        "Travail en équipe"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personnes réunies dans un cadre d’accompagnement ou de collaboration",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/educateur-accompagnateur-educatrice-accompagnatrice.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "accompagnateur-vie-quotidienne",
+      "sectorId": "action-sociale",
+      "title": "Accompagnateur·rice de la vie quotidienne",
+      "searchQuery": "accompagnement vie quotidienne autonomie",
+      "badge": "Métier en pénurie",
+      "summary": "Aider des personnes dépendantes à accomplir les activités ordinaires de la journée dans un cadre sécurisant.",
+      "description": "Aider des personnes dépendantes à accomplir les activités ordinaires de la journée dans un cadre sécurisant.",
+      "tasks": [
+        "Soutenir les gestes de la vie quotidienne.",
+        "Encourager l’autonomie et la participation.",
+        "Signaler les changements observés à l’équipe."
+      ],
+      "environment": "Services, associations, institutions ou domicile, avec un contact humain régulier et du travail en équipe.",
+      "schedule": "Horaires généralement de journée, parfois variables, en soirée ou le week-end selon le public et le service.",
+      "access": "Le niveau de diplôme et les éventuels agréments varient selon la fonction et le cadre d’exercice.",
+      "qualities": [
+        "Attention",
+        "Respect",
+        "Fiabilité",
+        "Disponibilité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personnes réunies dans un cadre d’accompagnement ou de collaboration",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/accompagnateur-accompagnatrice-d-activites-de-la-vie-quotidienne.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "coordinateur-socioculturel",
+      "sectorId": "activites-associatives",
+      "title": "Coordinateur·rice socioculturel·le",
+      "searchQuery": "coordination socioculturelle association",
+      "badge": "",
+      "summary": "Concevoir, coordonner et évaluer des projets culturels ou citoyens avec des équipes et des publics variés.",
+      "description": "Concevoir, coordonner et évaluer des projets culturels ou citoyens avec des équipes et des publics variés.",
+      "tasks": [
+        "Définir un programme d’actions.",
+        "Coordonner les partenaires et les animateurs.",
+        "Suivre le budget et évaluer les résultats."
+      ],
+      "environment": "Services, associations, institutions ou domicile, avec un contact humain régulier et du travail en équipe.",
+      "schedule": "Horaires généralement de journée, parfois variables, en soirée ou le week-end selon le public et le service.",
+      "access": "Le niveau de diplôme et les éventuels agréments varient selon la fonction et le cadre d’exercice.",
+      "qualities": [
+        "Leadership",
+        "Créativité",
+        "Organisation",
+        "Dialogue"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personnes réunies dans un cadre d’accompagnement ou de collaboration",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/coordinateur-socioculturel-coordinatrice-socioculturelle.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/coordinateur-socioculturel-coordinatrice-socioculturelle.html"
+      }
+    },
+    {
+      "id": "charge-developpement-local",
+      "sectorId": "activites-associatives",
+      "title": "Chargé·e de développement local",
+      "searchQuery": "développement local projets territoire",
+      "badge": "",
+      "summary": "Faire émerger des projets utiles à un territoire en mobilisant habitants, associations et institutions.",
+      "description": "Faire émerger des projets utiles à un territoire en mobilisant habitants, associations et institutions.",
+      "tasks": [
+        "Analyser les besoins du territoire.",
+        "Réunir les acteurs autour d’un projet.",
+        "Rechercher des ressources et suivre les actions."
+      ],
+      "environment": "Services, associations, institutions ou domicile, avec un contact humain régulier et du travail en équipe.",
+      "schedule": "Horaires généralement de journée, parfois variables, en soirée ou le week-end selon le public et le service.",
+      "access": "Le niveau de diplôme et les éventuels agréments varient selon la fonction et le cadre d’exercice.",
+      "qualities": [
+        "Initiative",
+        "Concertation",
+        "Analyse",
+        "Persévérance"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personnes réunies dans un cadre d’accompagnement ou de collaboration",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/charge-chargee-de-developpement-local.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/charge-chargee-de-developpement-local.html"
+      }
+    },
+    {
+      "id": "mediateur-interculturel",
+      "sectorId": "activites-associatives",
+      "title": "Médiateur·rice interculturel·le",
+      "searchQuery": "médiation interculturelle dialogue",
+      "badge": "",
+      "summary": "Faciliter la compréhension et le dialogue entre des personnes, des communautés et des services.",
+      "description": "Faciliter la compréhension et le dialogue entre des personnes, des communautés et des services.",
+      "tasks": [
+        "Écouter les points de vue et clarifier les besoins.",
+        "Prévenir ou apaiser les incompréhensions.",
+        "Orienter vers les services adaptés."
+      ],
+      "environment": "Services, associations, institutions ou domicile, avec un contact humain régulier et du travail en équipe.",
+      "schedule": "Horaires généralement de journée, parfois variables, en soirée ou le week-end selon le public et le service.",
+      "access": "Le niveau de diplôme et les éventuels agréments varient selon la fonction et le cadre d’exercice.",
+      "qualities": [
+        "Neutralité",
+        "Écoute",
+        "Communication",
+        "Ouverture"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personnes réunies dans un cadre d’accompagnement ou de collaboration",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/mediateur-interculturel-mediatrice-interculturelle.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/mediateur-interculturel-mediatrice-interculturelle.html"
+      }
+    },
+    {
+      "id": "agent-finances-publiques",
+      "sectorId": "administration-publique",
+      "title": "Agent·e des finances publiques",
+      "searchQuery": "administration finances publiques fiscalité",
+      "badge": "",
+      "summary": "Traiter des dossiers fiscaux et financiers en appliquant les règles du service public.",
+      "description": "Traiter des dossiers fiscaux et financiers en appliquant les règles du service public.",
+      "tasks": [
+        "Vérifier des déclarations et des pièces.",
+        "Mettre à jour les dossiers administratifs.",
+        "Informer les citoyens sur les procédures."
+      ],
+      "environment": "Bureau, service public ou entreprise, avec des échanges réguliers en présentiel et par outils numériques.",
+      "schedule": "Horaires le plus souvent réguliers en semaine, avec des périodes plus chargées selon les échéances.",
+      "access": "Une formation adaptée à la fonction et une bonne maîtrise des outils numériques sont généralement appréciées.",
+      "qualities": [
+        "Rigueur",
+        "Intégrité",
+        "Analyse",
+        "Sens du service"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail professionnel organisé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-d-administration-des-finances-publiques.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-d-administration-des-finances-publiques.html"
+      }
+    },
+    {
+      "id": "agent-tresorerie",
+      "sectorId": "administration-publique",
+      "title": "Agent·e de la Trésorerie",
+      "searchQuery": "trésorerie administration publique",
+      "badge": "",
+      "summary": "Assurer le suivi administratif et comptable de recettes, paiements et créances publiques.",
+      "description": "Assurer le suivi administratif et comptable de recettes, paiements et créances publiques.",
+      "tasks": [
+        "Enregistrer et contrôler des opérations.",
+        "Suivre des paiements et des échéances.",
+        "Répondre aux demandes liées aux dossiers."
+      ],
+      "environment": "Bureau, service public ou entreprise, avec des échanges réguliers en présentiel et par outils numériques.",
+      "schedule": "Horaires le plus souvent réguliers en semaine, avec des périodes plus chargées selon les échéances.",
+      "access": "Une formation adaptée à la fonction et une bonne maîtrise des outils numériques sont généralement appréciées.",
+      "qualities": [
+        "Précision",
+        "Confidentialité",
+        "Organisation",
+        "Fiabilité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail professionnel organisé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-de-l-administration-generale-de-la-tresorerie.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-de-l-administration-generale-de-la-tresorerie.html"
+      }
+    },
+    {
+      "id": "agent-accueil-public",
+      "sectorId": "administration-publique",
+      "title": "Agent·e d’accueil",
+      "searchQuery": "accueil public information usagers",
+      "badge": "",
+      "summary": "Accueillir, informer et orienter les usagers vers le bon service ou la bonne démarche.",
+      "description": "Accueillir, informer et orienter les usagers vers le bon service ou la bonne démarche.",
+      "tasks": [
+        "Identifier la demande de la personne.",
+        "Fournir une information claire.",
+        "Gérer les rendez-vous et les documents d’accueil."
+      ],
+      "environment": "Bureau, service public ou entreprise, avec des échanges réguliers en présentiel et par outils numériques.",
+      "schedule": "Horaires le plus souvent réguliers en semaine, avec des périodes plus chargées selon les échéances.",
+      "access": "Une formation adaptée à la fonction et une bonne maîtrise des outils numériques sont généralement appréciées.",
+      "qualities": [
+        "Courtoisie",
+        "Clarté",
+        "Patience",
+        "Réactivité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail professionnel organisé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-d-accueil.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-d-accueil.html"
+      }
+    },
+    {
+      "id": "agent-escale",
+      "sectorId": "aeronautique",
+      "title": "Agent·e d’escale",
+      "searchQuery": "aéroport escale passagers",
+      "badge": "",
+      "summary": "Prendre en charge les passagers au départ, à l’arrivée ou en correspondance dans un aéroport.",
+      "description": "Prendre en charge les passagers au départ, à l’arrivée ou en correspondance dans un aéroport.",
+      "tasks": [
+        "Enregistrer les passagers et les bagages.",
+        "Informer lors des changements de vol.",
+        "Coordonner l’embarquement avec les équipes."
+      ],
+      "environment": "Travail partagé entre bureau, rendez-vous et déplacements auprès de clients, partenaires ou sites.",
+      "schedule": "Horaires principalement de journée, avec une organisation variable selon les rendez-vous et les projets.",
+      "access": "Les employeurs recherchent souvent une formation liée au domaine, de l’autonomie et parfois le permis B.",
+      "qualities": [
+        "Accueil",
+        "Sang-froid",
+        "Langues",
+        "Ponctualité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Avion et environnement de travail aéronautique",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-d-escale.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-d-escale.html"
+      }
+    },
+    {
+      "id": "ajusteur-aeronautique",
+      "sectorId": "aeronautique",
+      "title": "Ajusteur·euse aéronautique",
+      "searchQuery": "ajusteur montage aéronautique précision",
+      "badge": "",
+      "summary": "Ajuster et assembler avec précision des pièces destinées aux structures et équipements aéronautiques.",
+      "description": "Ajuster et assembler avec précision des pièces destinées aux structures et équipements aéronautiques.",
+      "tasks": [
+        "Lire les plans et préparer les pièces.",
+        "Percer, ajuster et assembler les éléments.",
+        "Contrôler les dimensions et la conformité."
+      ],
+      "environment": "Atelier, garage ou site technique, avec utilisation d’outils, d’équipements de contrôle et de protection.",
+      "schedule": "Horaires de journée ou en équipes selon l’activité, avec respect strict des consignes de sécurité.",
+      "access": "Une formation technique ou une qualification professionnelle est généralement demandée ; les habilitations dépendent du poste.",
+      "qualities": [
+        "Précision",
+        "Habileté",
+        "Méthode",
+        "Vigilance"
+      ],
+      "photo": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Avion et environnement de travail aéronautique",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/ajusteur-ajusteuse.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/ajusteur-ajusteuse.html"
+      }
+    },
+    {
+      "id": "responsable-fret-aerien",
+      "sectorId": "aeronautique",
+      "title": "Responsable de chargement du fret aérien",
+      "searchQuery": "fret aérien chargement aéroport",
+      "badge": "",
+      "summary": "Organiser et sécuriser le chargement d’un avion en respectant les masses, priorités et contraintes de sûreté.",
+      "description": "Organiser et sécuriser le chargement d’un avion en respectant les masses, priorités et contraintes de sûreté.",
+      "tasks": [
+        "Planifier la répartition du fret.",
+        "Coordonner les équipes de piste.",
+        "Contrôler les documents et les règles de sécurité."
+      ],
+      "environment": "Entrepôt, quai, véhicule ou plateforme logistique, avec circulation d’engins et règles de sécurité strictes.",
+      "schedule": "Horaires réguliers ou en pauses, avec possibilités de nuit et de week-end selon les flux.",
+      "access": "Les permis, brevets ou autorisations de conduite dépendent du véhicule et de la mission exercée.",
+      "qualities": [
+        "Décision",
+        "Précision",
+        "Coordination",
+        "Sang-froid"
+      ],
+      "photo": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Avion et environnement de travail aéronautique",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/responsable-de-chargement-fret-aerien.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/responsable-de-chargement-fret-aerien.html"
+      }
+    },
+    {
+      "id": "conducteur-machines-agricoles",
+      "sectorId": "agriculture",
+      "title": "Conducteur·rice de machines agricoles",
+      "searchQuery": "machines agricoles tracteur cultures",
+      "badge": "Métier en pénurie",
+      "summary": "Conduire, régler et entretenir les machines utilisées pour préparer les sols, cultiver et récolter.",
+      "description": "Conduire, régler et entretenir les machines utilisées pour préparer les sols, cultiver et récolter.",
+      "tasks": [
+        "Préparer et régler l’engin.",
+        "Réaliser les travaux agricoles en sécurité.",
+        "Effectuer l’entretien courant du matériel."
+      ],
+      "environment": "Travail principalement en extérieur, sur des terrains ou exploitations, au rythme des saisons et de la météo.",
+      "schedule": "Horaires variables selon la saison, la météo, les cultures ou les interventions à réaliser.",
+      "access": "L’expérience pratique, la sécurité et parfois le permis B ou une autorisation de conduite sont particulièrement utiles.",
+      "qualities": [
+        "Vigilance",
+        "Autonomie",
+        "Sens mécanique",
+        "Observation"
+      ],
+      "photo": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Activité professionnelle au contact de la nature",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/conducteur-conductrice-de-machines-agricoles.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "ouvrier-horticole",
+      "sectorId": "agriculture",
+      "title": "Ouvrier·ère horticole",
+      "searchQuery": "horticulture plantes pépinière",
+      "badge": "Métier en pénurie",
+      "summary": "Cultiver et entretenir des plantes, fleurs, arbres ou légumes selon les saisons et les besoins de production.",
+      "description": "Cultiver et entretenir des plantes, fleurs, arbres ou légumes selon les saisons et les besoins de production.",
+      "tasks": [
+        "Préparer les sols et les cultures.",
+        "Semer, planter, arroser et tailler.",
+        "Surveiller la croissance et la santé des végétaux."
+      ],
+      "environment": "Travail principalement en extérieur, sur des terrains ou exploitations, au rythme des saisons et de la météo.",
+      "schedule": "Horaires variables selon la saison, la météo, les cultures ou les interventions à réaliser.",
+      "access": "L’expérience pratique, la sécurité et parfois le permis B ou une autorisation de conduite sont particulièrement utiles.",
+      "qualities": [
+        "Patience",
+        "Observation",
+        "Endurance",
+        "Soin"
+      ],
+      "photo": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Activité professionnelle au contact de la nature",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/ouvrier-ouvriere-horticole.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "ouvrier-agricole",
+      "sectorId": "agriculture",
+      "title": "Ouvrier·ère agricole",
+      "searchQuery": "exploitation agricole élevage cultures",
+      "badge": "",
+      "summary": "Participer aux travaux d’une exploitation agricole, des cultures aux soins quotidiens des animaux.",
+      "description": "Participer aux travaux d’une exploitation agricole, des cultures aux soins quotidiens des animaux.",
+      "tasks": [
+        "Entretenir les cultures ou les installations.",
+        "Nourrir et surveiller les animaux.",
+        "Récolter, trier et stocker les productions."
+      ],
+      "environment": "Travail principalement en extérieur, sur des terrains ou exploitations, au rythme des saisons et de la météo.",
+      "schedule": "Horaires variables selon la saison, la météo, les cultures ou les interventions à réaliser.",
+      "access": "L’expérience pratique, la sécurité et parfois le permis B ou une autorisation de conduite sont particulièrement utiles.",
+      "qualities": [
+        "Endurance",
+        "Régularité",
+        "Observation",
+        "Polyvalence"
+      ],
+      "photo": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Activité professionnelle au contact de la nature",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/ouvrier-ouvriere-agricole.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/ouvrier-ouvriere-agricole.html"
+      }
+    },
+    {
+      "id": "technicien-diagnostic-automobile",
+      "sectorId": "automobile",
+      "title": "Technicien·ne de diagnostic automobile",
+      "searchQuery": "diagnostic automobile électronique",
+      "badge": "Métier en pénurie",
+      "summary": "Identifier des pannes mécaniques, électriques ou électroniques et déterminer l’intervention adaptée.",
+      "description": "Identifier des pannes mécaniques, électriques ou électroniques et déterminer l’intervention adaptée.",
+      "tasks": [
+        "Interroger les systèmes embarqués.",
+        "Mesurer et interpréter les symptômes.",
+        "Réparer puis contrôler le fonctionnement du véhicule."
+      ],
+      "environment": "Atelier, garage ou site technique, avec utilisation d’outils, d’équipements de contrôle et de protection.",
+      "schedule": "Horaires de journée ou en équipes selon l’activité, avec respect strict des consignes de sécurité.",
+      "access": "Une formation technique ou une qualification professionnelle est généralement demandée ; les habilitations dépendent du poste.",
+      "qualities": [
+        "Logique",
+        "Précision",
+        "Curiosité technique",
+        "Méthode"
+      ],
+      "photo": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Atelier consacré à la maintenance de véhicules",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/technicien-technicienne-de-maintenance-et-de-diagnostic-automobile.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "technicien-diagnostic-poids-lourds",
+      "sectorId": "automobile",
+      "title": "Technicien·ne de diagnostic poids lourds",
+      "searchQuery": "diagnostic poids lourds camion",
+      "badge": "Métier en pénurie",
+      "summary": "Diagnostiquer et réparer les systèmes mécaniques et électroniques des poids lourds et véhicules industriels.",
+      "description": "Diagnostiquer et réparer les systèmes mécaniques et électroniques des poids lourds et véhicules industriels.",
+      "tasks": [
+        "Effectuer les contrôles de sécurité.",
+        "Localiser une panne avec les outils de diagnostic.",
+        "Réaliser et documenter la réparation."
+      ],
+      "environment": "Atelier, garage ou site technique, avec utilisation d’outils, d’équipements de contrôle et de protection.",
+      "schedule": "Horaires de journée ou en équipes selon l’activité, avec respect strict des consignes de sécurité.",
+      "access": "Une formation technique ou une qualification professionnelle est généralement demandée ; les habilitations dépendent du poste.",
+      "qualities": [
+        "Analyse",
+        "Vigilance",
+        "Habileté",
+        "Organisation"
+      ],
+      "photo": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Atelier consacré à la maintenance de véhicules",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/technicien-technicienne-de-maintenance-et-de-diagnostic-poids-lourds.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "tolier-carrosserie",
+      "sectorId": "automobile",
+      "title": "Tôlier·ère en carrosserie",
+      "searchQuery": "tôlerie carrosserie réparation",
+      "badge": "Métier en pénurie",
+      "summary": "Redresser, réparer ou remplacer les éléments de carrosserie endommagés avant la remise en peinture.",
+      "description": "Redresser, réparer ou remplacer les éléments de carrosserie endommagés avant la remise en peinture.",
+      "tasks": [
+        "Évaluer les déformations.",
+        "Déposer, redresser ou remplacer les pièces.",
+        "Contrôler les alignements et préparer les finitions."
+      ],
+      "environment": "Atelier, garage ou site technique, avec utilisation d’outils, d’équipements de contrôle et de protection.",
+      "schedule": "Horaires de journée ou en équipes selon l’activité, avec respect strict des consignes de sécurité.",
+      "access": "Une formation technique ou une qualification professionnelle est généralement demandée ; les habilitations dépendent du poste.",
+      "qualities": [
+        "Habileté",
+        "Précision",
+        "Patience",
+        "Sens du détail"
+      ],
+      "photo": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Atelier consacré à la maintenance de véhicules",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/tolier-toliere-en-carrosserie.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "ebeniste",
+      "sectorId": "bois-carton",
+      "title": "Ébéniste",
+      "searchQuery": "ébénisterie meuble bois",
+      "badge": "Métier en pénurie",
+      "summary": "Fabriquer ou restaurer des meubles et objets en bois avec une grande attention aux assemblages et aux finitions.",
+      "description": "Fabriquer ou restaurer des meubles et objets en bois avec une grande attention aux assemblages et aux finitions.",
+      "tasks": [
+        "Dessiner et préparer les pièces.",
+        "Usiner puis assembler les éléments.",
+        "Réaliser les placages et les finitions."
+      ],
+      "environment": "Atelier, garage ou site technique, avec utilisation d’outils, d’équipements de contrôle et de protection.",
+      "schedule": "Horaires de journée ou en équipes selon l’activité, avec respect strict des consignes de sécurité.",
+      "access": "Une formation technique ou une qualification professionnelle est généralement demandée ; les habilitations dépendent du poste.",
+      "qualities": [
+        "Précision",
+        "Patience",
+        "Créativité",
+        "Habileté"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/menuisier-menuisiere---ebeniste.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "monteur-structures-bois",
+      "sectorId": "bois-carton",
+      "title": "Monteur·euse de structures bois",
+      "searchQuery": "ossature structure bois montage",
+      "badge": "Métier en pénurie",
+      "summary": "Assembler et poser des ossatures, charpentes légères et éléments préfabriqués en bois sur chantier.",
+      "description": "Assembler et poser des ossatures, charpentes légères et éléments préfabriqués en bois sur chantier.",
+      "tasks": [
+        "Préparer les éléments selon les plans.",
+        "Lever et assembler la structure.",
+        "Contrôler l’aplomb, les fixations et la sécurité."
+      ],
+      "environment": "Chantiers intérieurs ou extérieurs, avec déplacements, travail en équipe et port d’équipements de protection.",
+      "schedule": "Horaires souvent matinaux et de journée, adaptés à la météo, aux délais et à l’organisation du chantier.",
+      "access": "Une formation métier et les attestations de sécurité adaptées facilitent l’accès ; le permis B est souvent utile.",
+      "qualities": [
+        "Précision",
+        "Esprit d’équipe",
+        "Équilibre",
+        "Prudence"
+      ],
+      "photo": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel en activité sur un chantier",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/monteur-monteuse-de-structures-bois.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "charpentier",
+      "sectorId": "bois-carton",
+      "title": "Charpentier·ère",
+      "searchQuery": "charpente bois toiture",
+      "badge": "Métier en pénurie",
+      "summary": "Tracer, fabriquer et poser les structures en bois qui soutiennent une toiture ou un bâtiment.",
+      "description": "Tracer, fabriquer et poser les structures en bois qui soutiennent une toiture ou un bâtiment.",
+      "tasks": [
+        "Lire les plans et tracer les pièces.",
+        "Tailler et assembler les éléments.",
+        "Poser la charpente en hauteur en sécurité."
+      ],
+      "environment": "Chantiers intérieurs ou extérieurs, avec déplacements, travail en équipe et port d’équipements de protection.",
+      "schedule": "Horaires souvent matinaux et de journée, adaptés à la météo, aux délais et à l’organisation du chantier.",
+      "access": "Une formation métier et les attestations de sécurité adaptées facilitent l’accès ; le permis B est souvent utile.",
+      "qualities": [
+        "Visualisation",
+        "Précision",
+        "Endurance",
+        "Prudence"
+      ],
+      "photo": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel en activité sur un chantier",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/charpentier-charpentiere.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "assistant-responsable-magasin",
+      "sectorId": "commerce-detail",
+      "title": "Assistant·e responsable de magasin",
+      "searchQuery": "adjoint responsable magasin commerce",
+      "badge": "Métier en pénurie",
+      "summary": "Soutenir la gestion quotidienne d’un point de vente et encadrer l’équipe lorsque nécessaire.",
+      "description": "Soutenir la gestion quotidienne d’un point de vente et encadrer l’équipe lorsque nécessaire.",
+      "tasks": [
+        "Organiser l’ouverture et la tenue du magasin.",
+        "Suivre les stocks et les indicateurs.",
+        "Aider et coordonner l’équipe de vente."
+      ],
+      "environment": "Point de vente ou espace de service, debout une partie de la journée et en contact direct avec la clientèle.",
+      "schedule": "Horaires variables pouvant inclure les samedis, soirées, dimanches ou périodes commerciales chargées.",
+      "access": "Les exigences varient selon l’enseigne ; le sens du service, la connaissance des produits et l’expérience comptent beaucoup.",
+      "qualities": [
+        "Organisation",
+        "Contact",
+        "Leadership",
+        "Réactivité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de vente, de service ou de fabrication artisanale",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/assistant-assistante-du-responsable-de-magasin.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "responsable-magasin",
+      "sectorId": "commerce-detail",
+      "title": "Responsable de magasin",
+      "searchQuery": "responsable magasin commerce gestion",
+      "badge": "Métier en pénurie",
+      "summary": "Piloter les ventes, l’équipe, les stocks et l’expérience client d’un point de vente.",
+      "description": "Piloter les ventes, l’équipe, les stocks et l’expérience client d’un point de vente.",
+      "tasks": [
+        "Fixer les priorités commerciales.",
+        "Manager et planifier l’équipe.",
+        "Analyser les résultats et ajuster les actions."
+      ],
+      "environment": "Point de vente ou espace de service, debout une partie de la journée et en contact direct avec la clientèle.",
+      "schedule": "Horaires variables pouvant inclure les samedis, soirées, dimanches ou périodes commerciales chargées.",
+      "access": "Les exigences varient selon l’enseigne ; le sens du service, la connaissance des produits et l’expérience comptent beaucoup.",
+      "qualities": [
+        "Leadership",
+        "Décision",
+        "Sens commercial",
+        "Organisation"
+      ],
+      "photo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de vente, de service ou de fabrication artisanale",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/responsable-de-magasin.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "fleuriste",
+      "sectorId": "commerce-detail",
+      "title": "Fleuriste",
+      "searchQuery": "fleurs bouquets vente",
+      "badge": "Métier en pénurie",
+      "summary": "Conseiller la clientèle et réaliser des bouquets ou compositions adaptés aux occasions et aux saisons.",
+      "description": "Conseiller la clientèle et réaliser des bouquets ou compositions adaptés aux occasions et aux saisons.",
+      "tasks": [
+        "Préparer et entretenir les fleurs.",
+        "Composer des bouquets et décors.",
+        "Conseiller, vendre et gérer les commandes."
+      ],
+      "environment": "Point de vente ou espace de service, debout une partie de la journée et en contact direct avec la clientèle.",
+      "schedule": "Horaires variables pouvant inclure les samedis, soirées, dimanches ou périodes commerciales chargées.",
+      "access": "Les exigences varient selon l’enseigne ; le sens du service, la connaissance des produits et l’expérience comptent beaucoup.",
+      "qualities": [
+        "Créativité",
+        "Sens des couleurs",
+        "Contact",
+        "Délicatesse"
+      ],
+      "photo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de vente, de service ou de fabrication artisanale",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/fleuriste.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "delegue-technico-commercial",
+      "sectorId": "commerce-gros",
+      "title": "Délégué·e technico-commercial·e",
+      "searchQuery": "technico commercial vente professionnelle",
+      "badge": "Métier en pénurie",
+      "summary": "Conseiller des clients professionnels et construire une offre commerciale fondée sur une expertise technique.",
+      "description": "Conseiller des clients professionnels et construire une offre commerciale fondée sur une expertise technique.",
+      "tasks": [
+        "Prospecter et analyser les besoins.",
+        "Présenter une solution technique chiffrée.",
+        "Négocier et suivre la relation client."
+      ],
+      "environment": "Travail partagé entre bureau, rendez-vous et déplacements auprès de clients, partenaires ou sites.",
+      "schedule": "Horaires principalement de journée, avec une organisation variable selon les rendez-vous et les projets.",
+      "access": "Les employeurs recherchent souvent une formation liée au domaine, de l’autonomie et parfois le permis B.",
+      "qualities": [
+        "Écoute",
+        "Négociation",
+        "Curiosité technique",
+        "Autonomie"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail professionnel organisé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/delegue-technico-commercial-deleguee-technico-commerciale.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "responsable-ventes",
+      "sectorId": "commerce-gros",
+      "title": "Responsable des ventes",
+      "searchQuery": "direction ventes équipe commerciale",
+      "badge": "Métier en pénurie",
+      "summary": "Définir les objectifs commerciaux et accompagner une équipe pour développer les ventes.",
+      "description": "Définir les objectifs commerciaux et accompagner une équipe pour développer les ventes.",
+      "tasks": [
+        "Construire le plan commercial.",
+        "Piloter les résultats et les prévisions.",
+        "Coacher les commerciaux et les partenaires."
+      ],
+      "environment": "Bureau, service public ou entreprise, avec des échanges réguliers en présentiel et par outils numériques.",
+      "schedule": "Horaires le plus souvent réguliers en semaine, avec des périodes plus chargées selon les échéances.",
+      "access": "Une formation adaptée à la fonction et une bonne maîtrise des outils numériques sont généralement appréciées.",
+      "qualities": [
+        "Leadership",
+        "Analyse",
+        "Négociation",
+        "Décision"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail professionnel organisé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/responsable-des-ventes.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "responsable-promotion-ventes",
+      "sectorId": "commerce-gros",
+      "title": "Responsable de la promotion des ventes",
+      "searchQuery": "promotion ventes marketing commercial",
+      "badge": "Métier en pénurie",
+      "summary": "Imaginer et déployer des actions promotionnelles qui soutiennent les équipes commerciales et les distributeurs.",
+      "description": "Imaginer et déployer des actions promotionnelles qui soutiennent les équipes commerciales et les distributeurs.",
+      "tasks": [
+        "Définir une campagne promotionnelle.",
+        "Coordonner les supports et les partenaires.",
+        "Mesurer les ventes et le retour des actions."
+      ],
+      "environment": "Bureau, service public ou entreprise, avec des échanges réguliers en présentiel et par outils numériques.",
+      "schedule": "Horaires le plus souvent réguliers en semaine, avec des périodes plus chargées selon les échéances.",
+      "access": "Une formation adaptée à la fonction et une bonne maîtrise des outils numériques sont généralement appréciées.",
+      "qualities": [
+        "Créativité",
+        "Analyse",
+        "Coordination",
+        "Sens commercial"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail professionnel organisé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/responsable-de-la-promotion-des-ventes.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "couvreur",
+      "sectorId": "construction",
+      "title": "Couvreur·euse",
+      "searchQuery": "couverture toiture chantier",
+      "badge": "Métier en pénurie",
+      "summary": "Poser, réparer et isoler des toitures pour protéger durablement les bâtiments des intempéries.",
+      "description": "Poser, réparer et isoler des toitures pour protéger durablement les bâtiments des intempéries.",
+      "tasks": [
+        "Préparer le support et les accès.",
+        "Poser les matériaux de couverture.",
+        "Réaliser les raccords et contrôler l’étanchéité."
+      ],
+      "environment": "Chantiers intérieurs ou extérieurs, avec déplacements, travail en équipe et port d’équipements de protection.",
+      "schedule": "Horaires souvent matinaux et de journée, adaptés à la météo, aux délais et à l’organisation du chantier.",
+      "access": "Une formation métier et les attestations de sécurité adaptées facilitent l’accès ; le permis B est souvent utile.",
+      "qualities": [
+        "Prudence",
+        "Endurance",
+        "Précision",
+        "Esprit d’équipe"
+      ],
+      "photo": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel en activité sur un chantier",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/couvreur-couvreuse-de-toits.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "macon",
+      "sectorId": "construction",
+      "title": "Maçon·ne",
+      "searchQuery": "maçonnerie gros œuvre chantier",
+      "badge": "Métier en pénurie",
+      "summary": "Construire les murs, fondations et éléments porteurs d’un bâtiment à partir de plans.",
+      "description": "Construire les murs, fondations et éléments porteurs d’un bâtiment à partir de plans.",
+      "tasks": [
+        "Implanter et préparer le chantier.",
+        "Monter les murs et réaliser les ouvrages.",
+        "Vérifier les niveaux, alignements et finitions."
+      ],
+      "environment": "Chantiers intérieurs ou extérieurs, avec déplacements, travail en équipe et port d’équipements de protection.",
+      "schedule": "Horaires souvent matinaux et de journée, adaptés à la météo, aux délais et à l’organisation du chantier.",
+      "access": "Une formation métier et les attestations de sécurité adaptées facilitent l’accès ; le permis B est souvent utile.",
+      "qualities": [
+        "Endurance",
+        "Précision",
+        "Lecture de plans",
+        "Travail en équipe"
+      ],
+      "photo": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel en activité sur un chantier",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/macon-maconne.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "plafonneur",
+      "sectorId": "construction",
+      "title": "Plafonneur·euse",
+      "searchQuery": "plafonnage enduit finition bâtiment",
+      "badge": "Métier en pénurie",
+      "summary": "Préparer et recouvrir murs et plafonds pour obtenir des surfaces planes prêtes à être finies.",
+      "description": "Préparer et recouvrir murs et plafonds pour obtenir des surfaces planes prêtes à être finies.",
+      "tasks": [
+        "Protéger et préparer les supports.",
+        "Appliquer les enduits ou poser les plaques.",
+        "Dresser, lisser et contrôler les surfaces."
+      ],
+      "environment": "Chantiers intérieurs ou extérieurs, avec déplacements, travail en équipe et port d’équipements de protection.",
+      "schedule": "Horaires souvent matinaux et de journée, adaptés à la météo, aux délais et à l’organisation du chantier.",
+      "access": "Une formation métier et les attestations de sécurité adaptées facilitent l’accès ; le permis B est souvent utile.",
+      "qualities": [
+        "Habileté",
+        "Soin",
+        "Endurance",
+        "Précision"
+      ],
+      "photo": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel en activité sur un chantier",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/plafonneur-plafonneuse.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "formateur-interne",
+      "sectorId": "education-formation",
+      "title": "Formateur·rice interne en entreprise",
+      "searchQuery": "formation interne entreprise compétences",
+      "badge": "Métier en pénurie",
+      "summary": "Transmettre des pratiques et compétences professionnelles aux travailleurs d’une organisation.",
+      "description": "Transmettre des pratiques et compétences professionnelles aux travailleurs d’une organisation.",
+      "tasks": [
+        "Identifier les besoins d’apprentissage.",
+        "Créer et animer des séquences pratiques.",
+        "Évaluer les acquis et améliorer le dispositif."
+      ],
+      "environment": "École, centre de formation ou entreprise, devant un groupe et en préparation individuelle ou collective.",
+      "schedule": "Horaires structurés par les cours et activités, avec du temps de préparation et de suivi en dehors des séances.",
+      "access": "Les titres pédagogiques et l’expertise demandée dépendent du public, de la matière et du cadre d’enseignement.",
+      "qualities": [
+        "Pédagogie",
+        "Expertise",
+        "Clarté",
+        "Adaptabilité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personnes réunies dans un cadre d’accompagnement ou de collaboration",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/formateur-formatrice-interne-en-entreprise.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "coordinateur-pedagogique",
+      "sectorId": "education-formation",
+      "title": "Coordinateur·rice pédagogique",
+      "searchQuery": "coordination pédagogique formation",
+      "badge": "",
+      "summary": "Concevoir et coordonner des programmes d’apprentissage cohérents avec les besoins des publics.",
+      "description": "Concevoir et coordonner des programmes d’apprentissage cohérents avec les besoins des publics.",
+      "tasks": [
+        "Structurer les parcours et les objectifs.",
+        "Accompagner les formateurs.",
+        "Évaluer la qualité et faire évoluer les contenus."
+      ],
+      "environment": "École, centre de formation ou entreprise, devant un groupe et en préparation individuelle ou collective.",
+      "schedule": "Horaires structurés par les cours et activités, avec du temps de préparation et de suivi en dehors des séances.",
+      "access": "Les titres pédagogiques et l’expertise demandée dépendent du public, de la matière et du cadre d’enseignement.",
+      "qualities": [
+        "Vision",
+        "Pédagogie",
+        "Organisation",
+        "Dialogue"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personnes réunies dans un cadre d’accompagnement ou de collaboration",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/coordinateur-coordinatrice-pedagogique.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/coordinateur-coordinatrice-pedagogique.html"
+      }
+    },
+    {
+      "id": "enseignant-secondaire",
+      "sectorId": "education-formation",
+      "title": "Enseignant·e du secondaire",
+      "searchQuery": "enseignement secondaire professeur",
+      "badge": "",
+      "summary": "Faire acquérir des connaissances et méthodes à des adolescents en adaptant son enseignement au groupe.",
+      "description": "Faire acquérir des connaissances et méthodes à des adolescents en adaptant son enseignement au groupe.",
+      "tasks": [
+        "Préparer les cours et les activités.",
+        "Expliquer, faire pratiquer et accompagner.",
+        "Évaluer les apprentissages et communiquer le suivi."
+      ],
+      "environment": "École, centre de formation ou entreprise, devant un groupe et en préparation individuelle ou collective.",
+      "schedule": "Horaires structurés par les cours et activités, avec du temps de préparation et de suivi en dehors des séances.",
+      "access": "Un titre pédagogique et les conditions fixées par l’enseignement sont généralement requis.",
+      "qualities": [
+        "Pédagogie",
+        "Patience",
+        "Autorité bienveillante",
+        "Créativité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personnes réunies dans un cadre d’accompagnement ou de collaboration",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/enseignant-enseignante-dans-l-enseignement-secondaire.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/enseignant-enseignante-dans-l-enseignement-secondaire.html"
+      }
+    },
+    {
+      "id": "technicien-frigoriste",
+      "sectorId": "energie-environnement",
+      "title": "Technicien·ne frigoriste",
+      "searchQuery": "froid climatisation pompe chaleur",
+      "badge": "Métier en pénurie",
+      "summary": "Installer, régler et dépanner des équipements frigorifiques, de climatisation ou de pompe à chaleur.",
+      "description": "Installer, régler et dépanner des équipements frigorifiques, de climatisation ou de pompe à chaleur.",
+      "tasks": [
+        "Mettre en service les installations.",
+        "Diagnostiquer les pannes et les fuites.",
+        "Entretenir les circuits et contrôler les performances."
+      ],
+      "environment": "Chantiers intérieurs ou extérieurs, avec déplacements, travail en équipe et port d’équipements de protection.",
+      "schedule": "Horaires souvent matinaux et de journée, adaptés à la météo, aux délais et à l’organisation du chantier.",
+      "access": "Une formation métier et les attestations de sécurité adaptées facilitent l’accès ; le permis B est souvent utile.",
+      "qualities": [
+        "Analyse",
+        "Précision",
+        "Autonomie",
+        "Sécurité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/technicien-technicienne-frigoriste.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "evaluateur-energetique-peb",
+      "sectorId": "energie-environnement",
+      "title": "Évaluateur·rice énergétique PEB",
+      "searchQuery": "audit énergétique PEB bâtiment",
+      "badge": "Métier en pénurie",
+      "summary": "Évaluer la performance énergétique d’un bâtiment et identifier les améliorations possibles.",
+      "description": "Évaluer la performance énergétique d’un bâtiment et identifier les améliorations possibles.",
+      "tasks": [
+        "Relever les caractéristiques du bâtiment.",
+        "Encoder et analyser les données énergétiques.",
+        "Rédiger le certificat ou le rapport d’audit."
+      ],
+      "environment": "Travail partagé entre bureau, rendez-vous et déplacements auprès de clients, partenaires ou sites.",
+      "schedule": "Horaires principalement de journée, avec une organisation variable selon les rendez-vous et les projets.",
+      "access": "Des agréments régionaux peuvent être nécessaires selon la mission PEB exercée.",
+      "qualities": [
+        "Analyse",
+        "Rigueur",
+        "Observation",
+        "Pédagogie"
+      ],
+      "photo": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel en activité sur un chantier",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/evaluateur-evaluatrice-energetique-peb-audit.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "technicien-chauffage-sanitaire",
+      "sectorId": "energie-environnement",
+      "title": "Technicien·ne chauffage et sanitaire",
+      "searchQuery": "maintenance chauffage sanitaire chaudière",
+      "badge": "Métier en pénurie",
+      "summary": "Entretenir et dépanner les installations de chauffage, d’eau chaude et les équipements sanitaires.",
+      "description": "Entretenir et dépanner les installations de chauffage, d’eau chaude et les équipements sanitaires.",
+      "tasks": [
+        "Contrôler le fonctionnement et la sécurité.",
+        "Nettoyer, régler et remplacer les composants.",
+        "Expliquer l’intervention au client."
+      ],
+      "environment": "Chantiers intérieurs ou extérieurs, avec déplacements, travail en équipe et port d’équipements de protection.",
+      "schedule": "Horaires souvent matinaux et de journée, adaptés à la météo, aux délais et à l’organisation du chantier.",
+      "access": "Des certifications spécifiques sont requises pour certaines chaudières, combustibles ou interventions.",
+      "qualities": [
+        "Diagnostic",
+        "Prudence",
+        "Autonomie",
+        "Contact"
+      ],
+      "photo": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel en activité sur un chantier",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/technicien-technicienne-de-maintenance-sanitaire-et-chauffage.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "comptable-interne",
+      "sectorId": "finances-assurances",
+      "title": "Comptable interne",
+      "searchQuery": "comptabilité interne clôture fiscalité",
+      "badge": "Métier en pénurie",
+      "summary": "Tenir et contrôler la comptabilité d’une organisation jusqu’aux clôtures et aux obligations périodiques.",
+      "description": "Tenir et contrôler la comptabilité d’une organisation jusqu’aux clôtures et aux obligations périodiques.",
+      "tasks": [
+        "Enregistrer et rapprocher les opérations.",
+        "Préparer les clôtures et déclarations.",
+        "Produire des analyses pour la gestion."
+      ],
+      "environment": "Bureau, service public ou entreprise, avec des échanges réguliers en présentiel et par outils numériques.",
+      "schedule": "Horaires le plus souvent réguliers en semaine, avec des périodes plus chargées selon les échéances.",
+      "access": "Une formation adaptée à la fonction et une bonne maîtrise des outils numériques sont généralement appréciées.",
+      "qualities": [
+        "Rigueur",
+        "Analyse",
+        "Discrétion",
+        "Planification"
+      ],
+      "photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Documents et outils de gestion financière",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/comptable-interne.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "gestionnaire-assurances",
+      "sectorId": "finances-assurances",
+      "title": "Gestionnaire d’assurances",
+      "searchQuery": "assurances contrat sinistre gestion",
+      "badge": "Métier en pénurie",
+      "summary": "Gérer des contrats et dossiers d’assurance de la souscription jusqu’au règlement d’un sinistre.",
+      "description": "Gérer des contrats et dossiers d’assurance de la souscription jusqu’au règlement d’un sinistre.",
+      "tasks": [
+        "Analyser une demande et les garanties.",
+        "Constituer et suivre le dossier.",
+        "Informer le client et coordonner les intervenants."
+      ],
+      "environment": "Bureau, service public ou entreprise, avec des échanges réguliers en présentiel et par outils numériques.",
+      "schedule": "Horaires le plus souvent réguliers en semaine, avec des périodes plus chargées selon les échéances.",
+      "access": "Une formation adaptée à la fonction et une bonne maîtrise des outils numériques sont généralement appréciées.",
+      "qualities": [
+        "Analyse",
+        "Clarté",
+        "Rigueur",
+        "Service client"
+      ],
+      "photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Documents et outils de gestion financière",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/gestionnaire-d-assurances.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "conseiller-fiscal",
+      "sectorId": "finances-assurances",
+      "title": "Conseiller·ère fiscal·e",
+      "searchQuery": "conseil fiscal déclarations réglementation",
+      "badge": "Métier en pénurie",
+      "summary": "Conseiller particuliers ou entreprises pour respecter leurs obligations et organiser leur situation fiscale.",
+      "description": "Conseiller particuliers ou entreprises pour respecter leurs obligations et organiser leur situation fiscale.",
+      "tasks": [
+        "Analyser les opérations et la réglementation.",
+        "Préparer ou contrôler les déclarations.",
+        "Expliquer les options et sécuriser les décisions."
+      ],
+      "environment": "Bureau, service public ou entreprise, avec des échanges réguliers en présentiel et par outils numériques.",
+      "schedule": "Horaires le plus souvent réguliers en semaine, avec des périodes plus chargées selon les échéances.",
+      "access": "Une formation adaptée à la fonction et une bonne maîtrise des outils numériques sont généralement appréciées.",
+      "qualities": [
+        "Analyse",
+        "Veille",
+        "Intégrité",
+        "Pédagogie"
+      ],
+      "photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Documents et outils de gestion financière",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/conseiller-fiscal-conseillere-fiscale.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "electromecanicien-industriel",
+      "sectorId": "genie-mecanique",
+      "title": "Électromécanicien·ne industriel·le",
+      "searchQuery": "électromécanique maintenance industrie",
+      "badge": "Métier en pénurie",
+      "summary": "Installer, entretenir et dépanner des machines qui associent mécanique, électricité et automatisation.",
+      "description": "Installer, entretenir et dépanner des machines qui associent mécanique, électricité et automatisation.",
+      "tasks": [
+        "Diagnostiquer une panne.",
+        "Réparer ou remplacer les composants.",
+        "Régler et tester la machine avant remise en service."
+      ],
+      "environment": "Site industriel ou atelier de production, au contact de machines et selon des procédures de sécurité précises.",
+      "schedule": "Travail possible en pauses, la nuit ou le week-end selon le rythme de production et les interventions.",
+      "access": "Une formation technique, les consignes de sécurité et les autorisations propres aux équipements peuvent être requises.",
+      "qualities": [
+        "Logique",
+        "Polyvalence",
+        "Précision",
+        "Réactivité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/electromecanicien-industriel-electromecanicienne-industrielle.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "technicien-maintenance-industrielle",
+      "sectorId": "genie-mecanique",
+      "title": "Technicien·ne de maintenance industrielle",
+      "searchQuery": "maintenance industrielle dépannage machines",
+      "badge": "Métier en pénurie",
+      "summary": "Prévenir les arrêts de production et remettre rapidement les équipements industriels en état.",
+      "description": "Prévenir les arrêts de production et remettre rapidement les équipements industriels en état.",
+      "tasks": [
+        "Réaliser la maintenance préventive.",
+        "Localiser et corriger les défaillances.",
+        "Documenter l’intervention et proposer des améliorations."
+      ],
+      "environment": "Site industriel ou atelier de production, au contact de machines et selon des procédures de sécurité précises.",
+      "schedule": "Travail possible en pauses, la nuit ou le week-end selon le rythme de production et les interventions.",
+      "access": "Une formation technique, les consignes de sécurité et les autorisations propres aux équipements peuvent être requises.",
+      "qualities": [
+        "Diagnostic",
+        "Sang-froid",
+        "Autonomie",
+        "Sécurité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/technicien-technicienne-de-maintenance-industrielle.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "constructeur-machines",
+      "sectorId": "genie-mecanique",
+      "title": "Constructeur·rice de machines",
+      "searchQuery": "construction machines assemblage mécanique",
+      "badge": "Métier en pénurie",
+      "summary": "Assembler, régler et mettre au point des machines ou ensembles mécaniques à partir de plans.",
+      "description": "Assembler, régler et mettre au point des machines ou ensembles mécaniques à partir de plans.",
+      "tasks": [
+        "Préparer les pièces et sous-ensembles.",
+        "Monter les composants mécaniques.",
+        "Régler, tester et corriger le fonctionnement."
+      ],
+      "environment": "Atelier, garage ou site technique, avec utilisation d’outils, d’équipements de contrôle et de protection.",
+      "schedule": "Horaires de journée ou en équipes selon l’activité, avec respect strict des consignes de sécurité.",
+      "access": "Une formation technique ou une qualification professionnelle est généralement demandée ; les habilitations dépendent du poste.",
+      "qualities": [
+        "Lecture de plans",
+        "Précision",
+        "Logique",
+        "Habileté"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/constructeur-constructrice-de-machines.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "chef-cuisine",
+      "sectorId": "horeca",
+      "title": "Chef·fe de cuisine",
+      "searchQuery": "chef cuisine brigade restaurant",
+      "badge": "Métier en pénurie",
+      "summary": "Concevoir la carte et diriger la production d’une cuisine en garantissant qualité, rythme et rentabilité.",
+      "description": "Concevoir la carte et diriger la production d’une cuisine en garantissant qualité, rythme et rentabilité.",
+      "tasks": [
+        "Élaborer les menus et les fiches techniques.",
+        "Organiser et encadrer la brigade.",
+        "Gérer les achats, les coûts et l’hygiène."
+      ],
+      "environment": "Cuisine professionnelle ou atelier alimentaire, principalement debout, dans un rythme soutenu et très organisé.",
+      "schedule": "Horaires variables, matinaux ou tardifs, avec des week-ends et jours fériés possibles selon l’établissement.",
+      "access": "Une formation pratique et la maîtrise des règles d’hygiène alimentaire sont fortement recommandées.",
+      "qualities": [
+        "Leadership",
+        "Créativité",
+        "Organisation",
+        "Résistance au stress"
+      ],
+      "photo": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Préparation alimentaire dans un environnement professionnel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/chef-cheffe-de-cuisine.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "chef-partie",
+      "sectorId": "horeca",
+      "title": "Chef·fe de partie",
+      "searchQuery": "chef partie cuisine restaurant",
+      "badge": "Métier en pénurie",
+      "summary": "Prendre en charge un poste précis de la cuisine et produire les préparations au rythme du service.",
+      "description": "Prendre en charge un poste précis de la cuisine et produire les préparations au rythme du service.",
+      "tasks": [
+        "Préparer la mise en place du poste.",
+        "Réaliser et dresser les plats.",
+        "Contrôler les stocks, l’hygiène et la qualité."
+      ],
+      "environment": "Cuisine professionnelle ou atelier alimentaire, principalement debout, dans un rythme soutenu et très organisé.",
+      "schedule": "Horaires variables, matinaux ou tardifs, avec des week-ends et jours fériés possibles selon l’établissement.",
+      "access": "Une formation pratique et la maîtrise des règles d’hygiène alimentaire sont fortement recommandées.",
+      "qualities": [
+        "Rapidité",
+        "Précision",
+        "Organisation",
+        "Esprit d’équipe"
+      ],
+      "photo": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Préparation alimentaire dans un environnement professionnel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/chef-cheffe-de-partie.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "cuisinier-collectivite",
+      "sectorId": "horeca",
+      "title": "Cuisinier·ère de collectivité",
+      "searchQuery": "cuisine collectivité cuisine centrale",
+      "badge": "Métier en pénurie",
+      "summary": "Préparer des repas en quantité pour une école, un hôpital, une maison de repos ou une entreprise.",
+      "description": "Préparer des repas en quantité pour une école, un hôpital, une maison de repos ou une entreprise.",
+      "tasks": [
+        "Planifier et produire les préparations.",
+        "Adapter les menus aux régimes nécessaires.",
+        "Respecter la chaîne du froid et les règles HACCP."
+      ],
+      "environment": "Cuisine professionnelle ou atelier alimentaire, principalement debout, dans un rythme soutenu et très organisé.",
+      "schedule": "Horaires variables, matinaux ou tardifs, avec des week-ends et jours fériés possibles selon l’établissement.",
+      "access": "Une formation pratique et la maîtrise des règles d’hygiène alimentaire sont fortement recommandées.",
+      "qualities": [
+        "Organisation",
+        "Régularité",
+        "Hygiène",
+        "Travail en équipe"
+      ],
+      "photo": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Préparation alimentaire dans un environnement professionnel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/cuisinier-cuisiniere-de-collectivite.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "concepteur-contenus-multimedias",
+      "sectorId": "industries-creatives",
+      "title": "Concepteur·rice de contenus multimédias",
+      "searchQuery": "contenu multimédia web vidéo interactif",
+      "badge": "",
+      "summary": "Imaginer et produire des contenus qui combinent texte, image, son, vidéo et interaction.",
+      "description": "Imaginer et produire des contenus qui combinent texte, image, son, vidéo et interaction.",
+      "tasks": [
+        "Traduire un brief en concept.",
+        "Scénariser et produire les médias.",
+        "Adapter les contenus aux supports et aux publics."
+      ],
+      "environment": "Studio, agence, atelier ou lieux de prise de vue, avec un travail autonome et des échanges autour des projets.",
+      "schedule": "Horaires souvent flexibles, avec des périodes plus intenses avant une livraison, une production ou un événement.",
+      "access": "Un portfolio solide, la maîtrise des outils du métier et des expériences concrètes facilitent l’accès.",
+      "qualities": [
+        "Créativité",
+        "Culture numérique",
+        "Narration",
+        "Organisation"
+      ],
+      "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Poste de travail numérique et outils de création",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/concepteur-conceptrice-de-contenus-multimedias.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/concepteur-conceptrice-de-contenus-multimedias.html"
+      }
+    },
+    {
+      "id": "monteur-sons-images",
+      "sectorId": "industries-creatives",
+      "title": "Monteur·euse de sons et d’images",
+      "searchQuery": "montage vidéo son audiovisuel",
+      "badge": "",
+      "summary": "Sélectionner et assembler images et sons afin de donner rythme, sens et cohérence à une production.",
+      "description": "Sélectionner et assembler images et sons afin de donner rythme, sens et cohérence à une production.",
+      "tasks": [
+        "Dérusher et organiser les médias.",
+        "Monter la narration et travailler le son.",
+        "Exporter les versions selon les supports."
+      ],
+      "environment": "Studio, agence, atelier ou lieux de prise de vue, avec un travail autonome et des échanges autour des projets.",
+      "schedule": "Horaires souvent flexibles, avec des périodes plus intenses avant une livraison, une production ou un événement.",
+      "access": "Un portfolio solide, la maîtrise des outils du métier et des expériences concrètes facilitent l’accès.",
+      "qualities": [
+        "Sens du rythme",
+        "Précision",
+        "Créativité",
+        "Concentration"
+      ],
+      "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Poste de travail numérique et outils de création",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/monteur-monteuse-de-sons-et-d-images.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/monteur-monteuse-de-sons-et-d-images.html"
+      }
+    },
+    {
+      "id": "photographe",
+      "sectorId": "industries-creatives",
+      "title": "Photographe",
+      "searchQuery": "photographie prise de vue retouche",
+      "badge": "",
+      "summary": "Créer des images adaptées à une commande en maîtrisant la lumière, la prise de vue et la retouche.",
+      "description": "Créer des images adaptées à une commande en maîtrisant la lumière, la prise de vue et la retouche.",
+      "tasks": [
+        "Préparer le matériel et la séance.",
+        "Diriger la prise de vue.",
+        "Sélectionner, retoucher et livrer les images."
+      ],
+      "environment": "Studio, agence, atelier ou lieux de prise de vue, avec un travail autonome et des échanges autour des projets.",
+      "schedule": "Horaires souvent flexibles, avec des périodes plus intenses avant une livraison, une production ou un événement.",
+      "access": "Un portfolio solide, la maîtrise des outils du métier et des expériences concrètes facilitent l’accès.",
+      "qualities": [
+        "Regard",
+        "Créativité",
+        "Technique",
+        "Relation client"
+      ],
+      "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Poste de travail numérique et outils de création",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/photographe.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/photographe.html"
+      }
+    },
+    {
+      "id": "agent-fabrication-beton",
+      "sectorId": "industries-extractives",
+      "title": "Agent·e de fabrication du béton préfabriqué",
+      "searchQuery": "béton préfabriqué production",
+      "badge": "",
+      "summary": "Fabriquer en atelier des éléments en béton destinés aux bâtiments et aux infrastructures.",
+      "description": "Fabriquer en atelier des éléments en béton destinés aux bâtiments et aux infrastructures.",
+      "tasks": [
+        "Préparer les moules et armatures.",
+        "Couler, vibrer et démouler le béton.",
+        "Contrôler les dimensions et l’aspect des pièces."
+      ],
+      "environment": "Site industriel ou atelier de production, au contact de machines et selon des procédures de sécurité précises.",
+      "schedule": "Travail possible en pauses, la nuit ou le week-end selon le rythme de production et les interventions.",
+      "access": "Une formation technique, les consignes de sécurité et les autorisations propres aux équipements peuvent être requises.",
+      "qualities": [
+        "Rigueur",
+        "Endurance",
+        "Précision",
+        "Sécurité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-de-fabrication-du-beton-prefabrique.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-de-fabrication-du-beton-prefabrique.html"
+      }
+    },
+    {
+      "id": "operateur-beton-granulats",
+      "sectorId": "industries-extractives",
+      "title": "Opérateur·rice béton, ciment et granulats",
+      "searchQuery": "béton ciment granulats centrale",
+      "badge": "",
+      "summary": "Conduire une installation qui dose et transforme des matières minérales en béton, ciment ou granulats.",
+      "description": "Conduire une installation qui dose et transforme des matières minérales en béton, ciment ou granulats.",
+      "tasks": [
+        "Approvisionner et régler l’installation.",
+        "Surveiller les paramètres de production.",
+        "Contrôler la qualité et assurer l’entretien courant."
+      ],
+      "environment": "Site industriel ou atelier de production, au contact de machines et selon des procédures de sécurité précises.",
+      "schedule": "Travail possible en pauses, la nuit ou le week-end selon le rythme de production et les interventions.",
+      "access": "Une formation technique, les consignes de sécurité et les autorisations propres aux équipements peuvent être requises.",
+      "qualities": [
+        "Vigilance",
+        "Réactivité",
+        "Rigueur",
+        "Sens mécanique"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-production-de-beton-pret-a-l-emploi-ciment-asphalte-et-granulats.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-production-de-beton-pret-a-l-emploi-ciment-asphalte-et-granulats.html"
+      }
+    },
+    {
+      "id": "operateur-production-verre",
+      "sectorId": "industries-extractives",
+      "title": "Opérateur·rice de production de verre",
+      "searchQuery": "production verre industrie",
+      "badge": "",
+      "summary": "Piloter les équipements qui transforment le verre et contrôler les produits à chaque étape.",
+      "description": "Piloter les équipements qui transforment le verre et contrôler les produits à chaque étape.",
+      "tasks": [
+        "Démarrer et alimenter la ligne.",
+        "Surveiller la température et les réglages.",
+        "Repérer les défauts et intervenir en sécurité."
+      ],
+      "environment": "Site industriel ou atelier de production, au contact de machines et selon des procédures de sécurité précises.",
+      "schedule": "Travail possible en pauses, la nuit ou le week-end selon le rythme de production et les interventions.",
+      "access": "Une formation technique, les consignes de sécurité et les autorisations propres aux équipements peuvent être requises.",
+      "qualities": [
+        "Attention",
+        "Réactivité",
+        "Rigueur",
+        "Travail en équipe"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-production-de-verre.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-production-de-verre.html"
+      }
+    },
+    {
+      "id": "analyste-cybersecurite",
+      "sectorId": "informatique",
+      "title": "Analyste en cybersécurité",
+      "searchQuery": "cybersécurité sécurité informatique",
+      "badge": "Métier en pénurie",
+      "summary": "Détecter les risques numériques et protéger les systèmes, réseaux et données d’une organisation.",
+      "description": "Détecter les risques numériques et protéger les systèmes, réseaux et données d’une organisation.",
+      "tasks": [
+        "Analyser les vulnérabilités et alertes.",
+        "Mettre en place des mesures de protection.",
+        "Réagir aux incidents et documenter les actions."
+      ],
+      "environment": "Entreprise numérique, service informatique ou télétravail, le plus souvent devant écran et en collaboration.",
+      "schedule": "Horaires généralement de bureau, avec des périodes de veille, de livraison ou d’intervention possibles.",
+      "access": "Les compétences démontrées, la formation, les projets réalisés et la veille technique comptent fortement.",
+      "qualities": [
+        "Analyse",
+        "Vigilance",
+        "Éthique",
+        "Veille continue"
+      ],
+      "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Poste de travail numérique et outils de création",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/analyste-en-cybersecurite.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "data-engineer",
+      "sectorId": "informatique",
+      "title": "Data engineer",
+      "searchQuery": "data engineer données pipelines",
+      "badge": "Métier en pénurie",
+      "summary": "Construire les systèmes qui collectent, transforment et rendent les données fiables et accessibles.",
+      "description": "Construire les systèmes qui collectent, transforment et rendent les données fiables et accessibles.",
+      "tasks": [
+        "Concevoir les flux et modèles de données.",
+        "Automatiser les traitements.",
+        "Contrôler la qualité, la sécurité et les performances."
+      ],
+      "environment": "Entreprise numérique, service informatique ou télétravail, le plus souvent devant écran et en collaboration.",
+      "schedule": "Horaires généralement de bureau, avec des périodes de veille, de livraison ou d’intervention possibles.",
+      "access": "Les compétences démontrées, la formation, les projets réalisés et la veille technique comptent fortement.",
+      "qualities": [
+        "Logique",
+        "Rigueur",
+        "Architecture",
+        "Collaboration"
+      ],
+      "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Poste de travail numérique et outils de création",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/data-engineer.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "software-tester",
+      "sectorId": "informatique",
+      "title": "Testeur·euse logiciel",
+      "searchQuery": "test logiciel qualité assurance",
+      "badge": "Métier en pénurie",
+      "summary": "Vérifier qu’un logiciel répond aux besoins, résiste aux erreurs et reste simple à utiliser.",
+      "description": "Vérifier qu’un logiciel répond aux besoins, résiste aux erreurs et reste simple à utiliser.",
+      "tasks": [
+        "Préparer les scénarios de test.",
+        "Exécuter les vérifications manuelles ou automatisées.",
+        "Décrire les anomalies et valider les corrections."
+      ],
+      "environment": "Entreprise numérique, service informatique ou télétravail, le plus souvent devant écran et en collaboration.",
+      "schedule": "Horaires généralement de bureau, avec des périodes de veille, de livraison ou d’intervention possibles.",
+      "access": "Les compétences démontrées, la formation, les projets réalisés et la veille technique comptent fortement.",
+      "qualities": [
+        "Méthode",
+        "Curiosité",
+        "Précision",
+        "Communication"
+      ],
+      "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Poste de travail numérique et outils de création",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/software-tester.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "agent-voyages",
+      "sectorId": "loisirs-tourisme",
+      "title": "Agent·e de voyages",
+      "searchQuery": "agence voyages séjours réservation",
+      "badge": "Métier en pénurie",
+      "summary": "Conseiller et réserver des transports, hébergements et activités adaptés au projet d’un voyageur.",
+      "description": "Conseiller et réserver des transports, hébergements et activités adaptés au projet d’un voyageur.",
+      "tasks": [
+        "Comprendre les attentes et le budget.",
+        "Comparer et assembler les prestations.",
+        "Réserver puis suivre le dossier avant le départ."
+      ],
+      "environment": "Travail partagé entre bureau, rendez-vous et déplacements auprès de clients, partenaires ou sites.",
+      "schedule": "Horaires principalement de journée, avec une organisation variable selon les rendez-vous et les projets.",
+      "access": "Les employeurs recherchent souvent une formation liée au domaine, de l’autonomie et parfois le permis B.",
+      "qualities": [
+        "Écoute",
+        "Curiosité",
+        "Organisation",
+        "Langues"
+      ],
+      "photo": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Environnement de voyage, de tourisme ou de loisirs",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-de-voyages.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "sauveteur-aquatique",
+      "sectorId": "loisirs-tourisme",
+      "title": "Sauveteur·euse aquatique",
+      "searchQuery": "sauveteur maître nageur piscine",
+      "badge": "Métier en pénurie",
+      "summary": "Surveiller un espace de baignade, prévenir les accidents et intervenir rapidement en cas de danger.",
+      "description": "Surveiller un espace de baignade, prévenir les accidents et intervenir rapidement en cas de danger.",
+      "tasks": [
+        "Observer les baigneurs et faire respecter les règles.",
+        "Prévenir les comportements à risque.",
+        "Porter secours et appliquer les premiers soins."
+      ],
+      "environment": "Terrain, véhicule d’intervention et locaux opérationnels, dans des situations qui exigent coordination et vigilance.",
+      "schedule": "Horaires variables comprenant fréquemment nuits, week-ends, gardes ou permanences.",
+      "access": "Un brevet de sauvetage et les recyclages requis sont nécessaires pour exercer.",
+      "qualities": [
+        "Vigilance",
+        "Sang-froid",
+        "Condition physique",
+        "Autorité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Environnement de voyage, de tourisme ou de loisirs",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/sauveteur-sauveteuse-aquatique.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "guide-touristique",
+      "sectorId": "loisirs-tourisme",
+      "title": "Guide touristique",
+      "searchQuery": "guide touristique accompagnateur voyages",
+      "badge": "",
+      "summary": "Faire découvrir un lieu ou un itinéraire en racontant son histoire et en encadrant le groupe.",
+      "description": "Faire découvrir un lieu ou un itinéraire en racontant son histoire et en encadrant le groupe.",
+      "tasks": [
+        "Préparer le parcours et les informations.",
+        "Accueillir et guider le groupe.",
+        "Adapter la visite aux questions et aux imprévus."
+      ],
+      "environment": "Travail partagé entre bureau, rendez-vous et déplacements auprès de clients, partenaires ou sites.",
+      "schedule": "Horaires principalement de journée, avec une organisation variable selon les rendez-vous et les projets.",
+      "access": "Les employeurs recherchent souvent une formation liée au domaine, de l’autonomie et parfois le permis B.",
+      "qualities": [
+        "Expression",
+        "Curiosité",
+        "Adaptabilité",
+        "Langues"
+      ],
+      "photo": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Environnement de voyage, de tourisme ou de loisirs",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/accompagnateur-accompagnatrice-de-voyages---guide-touristique.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/accompagnateur-accompagnatrice-de-voyages---guide-touristique.html"
+      }
+    },
+    {
+      "id": "operateur-machines-textiles",
+      "sectorId": "meuble-textile",
+      "title": "Opérateur·rice de machines textiles",
+      "searchQuery": "machine textile production",
+      "badge": "Métier en pénurie",
+      "summary": "Conduire et régler des machines qui préparent, tissent, tricotent ou finissent les matières textiles.",
+      "description": "Conduire et régler des machines qui préparent, tissent, tricotent ou finissent les matières textiles.",
+      "tasks": [
+        "Approvisionner et régler la machine.",
+        "Surveiller la production et les défauts.",
+        "Entretenir le poste et renseigner le suivi."
+      ],
+      "environment": "Site industriel ou atelier de production, au contact de machines et selon des procédures de sécurité précises.",
+      "schedule": "Travail possible en pauses, la nuit ou le week-end selon le rythme de production et les interventions.",
+      "access": "Une formation technique, les consignes de sécurité et les autorisations propres aux équipements peuvent être requises.",
+      "qualities": [
+        "Vigilance",
+        "Dextérité",
+        "Régularité",
+        "Réactivité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-machines-textiles.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "couturier",
+      "sectorId": "meuble-textile",
+      "title": "Couturier·ère",
+      "searchQuery": "couture confection retouche",
+      "badge": "",
+      "summary": "Assembler, ajuster ou réparer des vêtements et articles textiles à partir d’un modèle.",
+      "description": "Assembler, ajuster ou réparer des vêtements et articles textiles à partir d’un modèle.",
+      "tasks": [
+        "Prendre les mesures et préparer le patron.",
+        "Couper et assembler les pièces.",
+        "Effectuer les essayages, retouches et finitions."
+      ],
+      "environment": "Atelier, garage ou site technique, avec utilisation d’outils, d’équipements de contrôle et de protection.",
+      "schedule": "Horaires de journée ou en équipes selon l’activité, avec respect strict des consignes de sécurité.",
+      "access": "Une formation technique ou une qualification professionnelle est généralement demandée ; les habilitations dépendent du poste.",
+      "qualities": [
+        "Précision",
+        "Patience",
+        "Dextérité",
+        "Sens esthétique"
+      ],
+      "photo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de vente, de service ou de fabrication artisanale",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/couturier-couturiere.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/couturier-couturiere.html"
+      }
+    },
+    {
+      "id": "operateur-confection",
+      "sectorId": "meuble-textile",
+      "title": "Opérateur·rice polyvalent·e en confection",
+      "searchQuery": "confection textile assemblage",
+      "badge": "",
+      "summary": "Réaliser en série les opérations de coupe, piquage, assemblage et finition d’articles textiles.",
+      "description": "Réaliser en série les opérations de coupe, piquage, assemblage et finition d’articles textiles.",
+      "tasks": [
+        "Préparer les pièces et la machine.",
+        "Assembler selon la gamme opératoire.",
+        "Contrôler les coutures et les dimensions."
+      ],
+      "environment": "Atelier, garage ou site technique, avec utilisation d’outils, d’équipements de contrôle et de protection.",
+      "schedule": "Horaires de journée ou en équipes selon l’activité, avec respect strict des consignes de sécurité.",
+      "access": "Une formation technique ou une qualification professionnelle est généralement demandée ; les habilitations dépendent du poste.",
+      "qualities": [
+        "Dextérité",
+        "Régularité",
+        "Concentration",
+        "Qualité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-polyvalent-operatrice-polyvalente-en-confection.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-polyvalent-operatrice-polyvalente-en-confection.html"
+      }
+    },
+    {
+      "id": "technicien-production-biopharma",
+      "sectorId": "pharma-chimie-plastique",
+      "title": "Technicien·ne de production biopharmaceutique",
+      "searchQuery": "production biopharmaceutique biotechnologie",
+      "badge": "",
+      "summary": "Piloter des étapes de fabrication biopharmaceutique dans un environnement contrôlé et fortement documenté.",
+      "description": "Piloter des étapes de fabrication biopharmaceutique dans un environnement contrôlé et fortement documenté.",
+      "tasks": [
+        "Préparer les équipements et les matières.",
+        "Suivre les paramètres du procédé.",
+        "Réaliser les contrôles et compléter la documentation."
+      ],
+      "environment": "Site industriel ou atelier de production, au contact de machines et selon des procédures de sécurité précises.",
+      "schedule": "Travail possible en pauses, la nuit ou le week-end selon le rythme de production et les interventions.",
+      "access": "Une formation technique, les consignes de sécurité et les autorisations propres aux équipements peuvent être requises.",
+      "qualities": [
+        "Rigueur",
+        "Traçabilité",
+        "Analyse",
+        "Hygiène"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/technicien-technicienne-de-production-en-industrie-bio-pharmaceutique.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/technicien-technicienne-de-production-en-industrie-bio-pharmaceutique.html"
+      }
+    },
+    {
+      "id": "operateur-industrie-chimique",
+      "sectorId": "pharma-chimie-plastique",
+      "title": "Opérateur·rice en industrie chimique",
+      "searchQuery": "industrie chimique procédés production",
+      "badge": "",
+      "summary": "Conduire un procédé chimique en surveillant les paramètres, la qualité et les règles de sécurité.",
+      "description": "Conduire un procédé chimique en surveillant les paramètres, la qualité et les règles de sécurité.",
+      "tasks": [
+        "Préparer les matières et l’installation.",
+        "Piloter les réactions et les transferts.",
+        "Prélever, contrôler et signaler les écarts."
+      ],
+      "environment": "Site industriel ou atelier de production, au contact de machines et selon des procédures de sécurité précises.",
+      "schedule": "Travail possible en pauses, la nuit ou le week-end selon le rythme de production et les interventions.",
+      "access": "Une formation technique, les consignes de sécurité et les autorisations propres aux équipements peuvent être requises.",
+      "qualities": [
+        "Vigilance",
+        "Rigueur",
+        "Réactivité",
+        "Sécurité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-en-industrie-chimique.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-en-industrie-chimique.html"
+      }
+    },
+    {
+      "id": "operateur-plastiques-caoutchouc",
+      "sectorId": "pharma-chimie-plastique",
+      "title": "Opérateur·rice en plastiques et caoutchouc",
+      "searchQuery": "plasturgie caoutchouc transformation",
+      "badge": "",
+      "summary": "Régler et surveiller les équipements qui transforment des matières plastiques ou du caoutchouc.",
+      "description": "Régler et surveiller les équipements qui transforment des matières plastiques ou du caoutchouc.",
+      "tasks": [
+        "Monter l’outillage et préparer les matières.",
+        "Régler puis suivre la production.",
+        "Contrôler les pièces et corriger les dérives."
+      ],
+      "environment": "Site industriel ou atelier de production, au contact de machines et selon des procédures de sécurité précises.",
+      "schedule": "Travail possible en pauses, la nuit ou le week-end selon le rythme de production et les interventions.",
+      "access": "Une formation technique, les consignes de sécurité et les autorisations propres aux équipements peuvent être requises.",
+      "qualities": [
+        "Précision",
+        "Sens mécanique",
+        "Vigilance",
+        "Régularité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements au sein d’un environnement industriel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-transformation-de-plastiques-et-caoutchouc.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-transformation-de-plastiques-et-caoutchouc.html"
+      }
+    },
+    {
+      "id": "infirmier",
+      "sectorId": "sante",
+      "title": "Infirmier·ère",
+      "searchQuery": "infirmier soins santé",
+      "badge": "Métier en pénurie",
+      "summary": "Évaluer l’état de santé, réaliser les soins et accompagner les patients en coordination avec l’équipe médicale.",
+      "description": "Évaluer l’état de santé, réaliser les soins et accompagner les patients en coordination avec l’équipe médicale.",
+      "tasks": [
+        "Planifier et effectuer les soins.",
+        "Surveiller l’évolution et réagir aux changements.",
+        "Informer le patient et assurer les transmissions."
+      ],
+      "environment": "Hôpital, cabinet, institution ou domicile, au contact des patients et d’une équipe pluridisciplinaire.",
+      "schedule": "Horaires réguliers ou variables ; les nuits, gardes, week-ends et jours fériés dépendent du service.",
+      "access": "Le métier est réglementé et nécessite le diplôme ainsi que les autorisations professionnelles requises.",
+      "qualities": [
+        "Empathie",
+        "Rigueur",
+        "Sang-froid",
+        "Travail en équipe"
+      ],
+      "photo": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel de la santé auprès d’une personne",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/infirmier-infirmiere.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "ergotherapeute",
+      "sectorId": "sante",
+      "title": "Ergothérapeute",
+      "searchQuery": "ergothérapie autonomie réadaptation",
+      "badge": "Métier en pénurie",
+      "summary": "Aider une personne à retrouver ou préserver son autonomie grâce à des activités et aménagements adaptés.",
+      "description": "Aider une personne à retrouver ou préserver son autonomie grâce à des activités et aménagements adaptés.",
+      "tasks": [
+        "Évaluer les capacités et les difficultés.",
+        "Construire des exercices ou adaptations.",
+        "Suivre les progrès avec la personne et l’équipe."
+      ],
+      "environment": "Hôpital, cabinet, institution ou domicile, au contact des patients et d’une équipe pluridisciplinaire.",
+      "schedule": "Horaires réguliers ou variables ; les nuits, gardes, week-ends et jours fériés dépendent du service.",
+      "access": "Le métier est réglementé et nécessite un diplôme reconnu.",
+      "qualities": [
+        "Observation",
+        "Créativité",
+        "Empathie",
+        "Patience"
+      ],
+      "photo": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel de la santé auprès d’une personne",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/ergotherapeute.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "technologue-imagerie-medicale",
+      "sectorId": "sante",
+      "title": "Technologue en imagerie médicale",
+      "searchQuery": "imagerie médicale radiologie scanner",
+      "badge": "Métier en pénurie",
+      "summary": "Réaliser des examens d’imagerie en assurant la qualité technique, la sécurité et l’accueil du patient.",
+      "description": "Réaliser des examens d’imagerie en assurant la qualité technique, la sécurité et l’accueil du patient.",
+      "tasks": [
+        "Préparer et positionner le patient.",
+        "Régler l’appareil et réaliser l’examen.",
+        "Contrôler les images et appliquer la radioprotection."
+      ],
+      "environment": "Hôpital, cabinet, institution ou domicile, au contact des patients et d’une équipe pluridisciplinaire.",
+      "schedule": "Horaires réguliers ou variables ; les nuits, gardes, week-ends et jours fériés dépendent du service.",
+      "access": "Le métier est réglementé et nécessite un diplôme reconnu ainsi que les autorisations requises.",
+      "qualities": [
+        "Précision",
+        "Calme",
+        "Technique",
+        "Contact humain"
+      ],
+      "photo": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel de la santé auprès d’une personne",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/technologue-en-imagerie-medicale.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "agent-police",
+      "sectorId": "securite-publique",
+      "title": "Agent·e de police",
+      "searchQuery": "police sécurité publique proximité",
+      "badge": "Métier en pénurie",
+      "summary": "Contribuer à la sécurité et à la tranquillité publiques par une présence visible et des missions de proximité.",
+      "description": "Contribuer à la sécurité et à la tranquillité publiques par une présence visible et des missions de proximité.",
+      "tasks": [
+        "Prévenir les incivilités et informer la population.",
+        "Faire respecter les règlements dans ses compétences.",
+        "Constater les faits et rendre compte."
+      ],
+      "environment": "Terrain, véhicule d’intervention et locaux opérationnels, dans des situations qui exigent coordination et vigilance.",
+      "schedule": "Horaires variables comprenant fréquemment nuits, week-ends, gardes ou permanences.",
+      "access": "L’accès est réglementé et comprend des conditions de sélection, d’aptitude et de formation.",
+      "qualities": [
+        "Intégrité",
+        "Sang-froid",
+        "Observation",
+        "Communication"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail professionnel organisé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-de-police.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "sapeur-pompier",
+      "sectorId": "securite-publique",
+      "title": "Sapeur-pompier·ère",
+      "searchQuery": "pompier secours incendie protection civile",
+      "badge": "",
+      "summary": "Intervenir lors d’incendies, accidents et situations dangereuses pour protéger les personnes et les biens.",
+      "description": "Intervenir lors d’incendies, accidents et situations dangereuses pour protéger les personnes et les biens.",
+      "tasks": [
+        "Sécuriser les lieux et porter secours.",
+        "Combattre les incendies et limiter les risques.",
+        "Entretenir le matériel et s’entraîner régulièrement."
+      ],
+      "environment": "Terrain, véhicule d’intervention et locaux opérationnels, dans des situations qui exigent coordination et vigilance.",
+      "schedule": "Horaires variables comprenant fréquemment nuits, week-ends, gardes ou permanences.",
+      "access": "Des épreuves, aptitudes médicales, formations et brevets spécifiques conditionnent l’accès à la fonction.",
+      "qualities": [
+        "Courage",
+        "Sang-froid",
+        "Condition physique",
+        "Esprit d’équipe"
+      ],
+      "photo": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel en activité sur un chantier",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/sapeur-pompier---agent-agente-de-la-protection-civile-cadre-de-base.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/sapeur-pompier---agent-agente-de-la-protection-civile-cadre-de-base.html"
+      }
+    },
+    {
+      "id": "ambulancier-secouriste",
+      "sectorId": "securite-publique",
+      "title": "Ambulancier·ère-secouriste",
+      "searchQuery": "ambulance secours urgence",
+      "badge": "",
+      "summary": "Prendre en charge, stabiliser et transporter des personnes lors d’une urgence médicale.",
+      "description": "Prendre en charge, stabiliser et transporter des personnes lors d’une urgence médicale.",
+      "tasks": [
+        "Évaluer rapidement la situation.",
+        "Appliquer les gestes de secours.",
+        "Surveiller et transmettre les informations pendant le transport."
+      ],
+      "environment": "Terrain, véhicule d’intervention et locaux opérationnels, dans des situations qui exigent coordination et vigilance.",
+      "schedule": "Horaires variables comprenant fréquemment nuits, week-ends, gardes ou permanences.",
+      "access": "Une formation reconnue, des agréments et une aptitude médicale sont requis selon le type de transport.",
+      "qualities": [
+        "Sang-froid",
+        "Réactivité",
+        "Empathie",
+        "Endurance"
+      ],
+      "photo": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel de la santé auprès d’une personne",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/ambulancier-ambulanciere-secouriste.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/ambulancier-ambulanciere-secouriste.html"
+      }
+    },
+    {
+      "id": "chef-projet",
+      "sectorId": "services-entreprises",
+      "title": "Chef·fe de projet",
+      "searchQuery": "gestion projet coordination entreprise",
+      "badge": "Métier en pénurie",
+      "summary": "Transformer un objectif en plan d’action et coordonner les personnes, délais, risques et ressources.",
+      "description": "Transformer un objectif en plan d’action et coordonner les personnes, délais, risques et ressources.",
+      "tasks": [
+        "Clarifier le périmètre et les livrables.",
+        "Planifier et animer le travail collectif.",
+        "Suivre les risques, le budget et l’avancement."
+      ],
+      "environment": "Travail partagé entre bureau, rendez-vous et déplacements auprès de clients, partenaires ou sites.",
+      "schedule": "Horaires principalement de journée, avec une organisation variable selon les rendez-vous et les projets.",
+      "access": "Les employeurs recherchent souvent une formation liée au domaine, de l’autonomie et parfois le permis B.",
+      "qualities": [
+        "Organisation",
+        "Leadership",
+        "Communication",
+        "Anticipation"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail professionnel organisé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/chef-cheffe-de-projet.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "facility-manager",
+      "sectorId": "services-entreprises",
+      "title": "Facility manager",
+      "searchQuery": "facility management bâtiments services",
+      "badge": "Métier en pénurie",
+      "summary": "Organiser les bâtiments et services généraux afin d’offrir un environnement de travail fiable et sûr.",
+      "description": "Organiser les bâtiments et services généraux afin d’offrir un environnement de travail fiable et sûr.",
+      "tasks": [
+        "Planifier l’entretien et les contrats.",
+        "Coordonner les prestataires.",
+        "Suivre les coûts, incidents et obligations de sécurité."
+      ],
+      "environment": "Travail partagé entre bureau, rendez-vous et déplacements auprès de clients, partenaires ou sites.",
+      "schedule": "Horaires principalement de journée, avec une organisation variable selon les rendez-vous et les projets.",
+      "access": "Les employeurs recherchent souvent une formation liée au domaine, de l’autonomie et parfois le permis B.",
+      "qualities": [
+        "Organisation",
+        "Négociation",
+        "Réactivité",
+        "Vision globale"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail professionnel organisé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/facility-manager.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "responsable-service-nettoyage",
+      "sectorId": "services-entreprises",
+      "title": "Responsable de service de nettoyage",
+      "searchQuery": "responsable nettoyage équipe qualité",
+      "badge": "Métier en pénurie",
+      "summary": "Planifier les prestations de nettoyage, encadrer les équipes et garantir la qualité chez les clients.",
+      "description": "Planifier les prestations de nettoyage, encadrer les équipes et garantir la qualité chez les clients.",
+      "tasks": [
+        "Organiser les sites, horaires et produits.",
+        "Former et soutenir les équipes.",
+        "Contrôler la qualité et traiter les demandes."
+      ],
+      "environment": "Travail partagé entre bureau, rendez-vous et déplacements auprès de clients, partenaires ou sites.",
+      "schedule": "Horaires principalement de journée, avec une organisation variable selon les rendez-vous et les projets.",
+      "access": "Les employeurs recherchent souvent une formation liée au domaine, de l’autonomie et parfois le permis B.",
+      "qualities": [
+        "Leadership",
+        "Organisation",
+        "Exigence",
+        "Contact"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail professionnel organisé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/responsable-du-service-de-nettoyage.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "aide-menager-domicile",
+      "sectorId": "services-particuliers",
+      "title": "Aide-ménager·ère à domicile",
+      "searchQuery": "aide ménagère domicile titres services",
+      "badge": "Métier en pénurie",
+      "summary": "Entretenir le logement d’un particulier en respectant ses habitudes, son intimité et les règles de sécurité.",
+      "description": "Entretenir le logement d’un particulier en respectant ses habitudes, son intimité et les règles de sécurité.",
+      "tasks": [
+        "Nettoyer et ranger les pièces.",
+        "Entretenir le linge selon la mission.",
+        "Organiser le travail et utiliser les produits correctement."
+      ],
+      "environment": "Services, associations, institutions ou domicile, avec un contact humain régulier et du travail en équipe.",
+      "schedule": "Horaires généralement de journée, parfois variables, en soirée ou le week-end selon le public et le service.",
+      "access": "Le niveau de diplôme et les éventuels agréments varient selon la fonction et le cadre d’exercice.",
+      "qualities": [
+        "Discrétion",
+        "Autonomie",
+        "Fiabilité",
+        "Endurance"
+      ],
+      "photo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de vente, de service ou de fabrication artisanale",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/aide-menager-menagere-a-domicile.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "nettoyeur-locaux",
+      "sectorId": "services-particuliers",
+      "title": "Nettoyeur·euse de locaux",
+      "searchQuery": "nettoyage locaux grandes surfaces",
+      "badge": "Métier en pénurie",
+      "summary": "Assurer la propreté et l’hygiène de bureaux, commerces, écoles ou grands espaces.",
+      "description": "Assurer la propreté et l’hygiène de bureaux, commerces, écoles ou grands espaces.",
+      "tasks": [
+        "Préparer le matériel et sécuriser la zone.",
+        "Nettoyer les sols, surfaces et sanitaires.",
+        "Trier les déchets et signaler les anomalies."
+      ],
+      "environment": "Services, associations, institutions ou domicile, avec un contact humain régulier et du travail en équipe.",
+      "schedule": "Horaires généralement de journée, parfois variables, en soirée ou le week-end selon le public et le service.",
+      "access": "Le niveau de diplôme et les éventuels agréments varient selon la fonction et le cadre d’exercice.",
+      "qualities": [
+        "Rigueur",
+        "Autonomie",
+        "Endurance",
+        "Ponctualité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de vente, de service ou de fabrication artisanale",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/nettoyeur-nettoyeuse-de-locaux-et-de-grandes-surfaces.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "accueillant-enfant",
+      "sectorId": "services-particuliers",
+      "title": "Accueillant·e d’enfant",
+      "searchQuery": "accueil enfant petite enfance",
+      "badge": "",
+      "summary": "Accueillir de jeunes enfants et soutenir leur sécurité, leur développement et leur bien-être quotidien.",
+      "description": "Accueillir de jeunes enfants et soutenir leur sécurité, leur développement et leur bien-être quotidien.",
+      "tasks": [
+        "Organiser les soins, repas et temps de repos.",
+        "Proposer des activités d’éveil.",
+        "Échanger avec les familles et observer le développement."
+      ],
+      "environment": "Services, associations, institutions ou domicile, avec un contact humain régulier et du travail en équipe.",
+      "schedule": "Horaires généralement de journée, parfois variables, en soirée ou le week-end selon le public et le service.",
+      "access": "Les autorisations, formations et conditions d’accueil dépendent du cadre d’exercice et de l’organisme compétent.",
+      "qualities": [
+        "Patience",
+        "Vigilance",
+        "Douceur",
+        "Organisation"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personnes réunies dans un cadre d’accompagnement ou de collaboration",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/accueillant-accueillante-d-enfant.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/accueillant-accueillante-d-enfant.html"
+      }
+    },
+    {
+      "id": "responsable-recrutement",
+      "sectorId": "services-emploi",
+      "title": "Responsable du recrutement",
+      "searchQuery": "recrutement talents ressources humaines",
+      "badge": "",
+      "summary": "Définir et piloter les recrutements nécessaires à une organisation en lien avec les équipes.",
+      "description": "Définir et piloter les recrutements nécessaires à une organisation en lien avec les équipes.",
+      "tasks": [
+        "Analyser les besoins et définir les profils.",
+        "Organiser la recherche et les entretiens.",
+        "Conseiller les responsables et suivre l’intégration."
+      ],
+      "environment": "Services, associations, institutions ou domicile, avec un contact humain régulier et du travail en équipe.",
+      "schedule": "Horaires généralement de journée, parfois variables, en soirée ou le week-end selon le public et le service.",
+      "access": "Le niveau de diplôme et les éventuels agréments varient selon la fonction et le cadre d’exercice.",
+      "qualities": [
+        "Écoute",
+        "Analyse",
+        "Décision",
+        "Communication"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail professionnel organisé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/responsable-du-recrutement.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/responsable-du-recrutement.html"
+      }
+    },
+    {
+      "id": "assistant-rh",
+      "sectorId": "services-emploi",
+      "title": "Assistant·e ressources humaines",
+      "searchQuery": "assistant ressources humaines administration personnel",
+      "badge": "",
+      "summary": "Assurer le suivi administratif des travailleurs et soutenir les processus de recrutement et de formation.",
+      "description": "Assurer le suivi administratif des travailleurs et soutenir les processus de recrutement et de formation.",
+      "tasks": [
+        "Mettre à jour les dossiers du personnel.",
+        "Préparer les documents et données RH.",
+        "Répondre aux questions courantes des travailleurs."
+      ],
+      "environment": "Bureau, service public ou entreprise, avec des échanges réguliers en présentiel et par outils numériques.",
+      "schedule": "Horaires le plus souvent réguliers en semaine, avec des périodes plus chargées selon les échéances.",
+      "access": "Une formation adaptée à la fonction et une bonne maîtrise des outils numériques sont généralement appréciées.",
+      "qualities": [
+        "Discrétion",
+        "Organisation",
+        "Contact",
+        "Précision"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail professionnel organisé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/assistant-ressources-humaines-polyvalent-assistante-ressources-humaines-polyvalente.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/assistant-ressources-humaines-polyvalent-assistante-ressources-humaines-polyvalente.html"
+      }
+    },
+    {
+      "id": "conseiller-orientation",
+      "sectorId": "services-emploi",
+      "title": "Conseiller·ère d’orientation",
+      "searchQuery": "orientation études métier projet",
+      "badge": "",
+      "summary": "Aider une personne à clarifier ses intérêts, ses compétences et les étapes réalistes de son projet.",
+      "description": "Aider une personne à clarifier ses intérêts, ses compétences et les étapes réalistes de son projet.",
+      "tasks": [
+        "Explorer la situation et les motivations.",
+        "Faire découvrir des pistes et ressources.",
+        "Construire un plan d’action avec la personne."
+      ],
+      "environment": "Services, associations, institutions ou domicile, avec un contact humain régulier et du travail en équipe.",
+      "schedule": "Horaires généralement de journée, parfois variables, en soirée ou le week-end selon le public et le service.",
+      "access": "Le niveau de diplôme et les éventuels agréments varient selon la fonction et le cadre d’exercice.",
+      "qualities": [
+        "Écoute",
+        "Analyse",
+        "Neutralité",
+        "Encouragement"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personnes réunies dans un cadre d’accompagnement ou de collaboration",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/conseiller-conseillere-d-orientation.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "standard",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/infos-metiers/metiers/conseiller-conseillere-d-orientation.html"
+      }
+    },
+    {
+      "id": "conducteur-ligne-alimentaire",
+      "sectorId": "transformation-alimentaire",
+      "title": "Conducteur·rice de ligne alimentaire",
+      "searchQuery": "ligne production alimentaire conduite",
+      "badge": "Métier en pénurie",
+      "summary": "Piloter une ligne automatisée de fabrication ou de conditionnement en garantissant cadence, hygiène et qualité.",
+      "description": "Piloter une ligne automatisée de fabrication ou de conditionnement en garantissant cadence, hygiène et qualité.",
+      "tasks": [
+        "Préparer et démarrer la ligne.",
+        "Surveiller les réglages et approvisionnements.",
+        "Contrôler les produits et traiter les incidents."
+      ],
+      "environment": "Site industriel ou atelier de production, au contact de machines et selon des procédures de sécurité précises.",
+      "schedule": "Travail possible en pauses, la nuit ou le week-end selon le rythme de production et les interventions.",
+      "access": "Une formation technique, les consignes de sécurité et les autorisations propres aux équipements peuvent être requises.",
+      "qualities": [
+        "Vigilance",
+        "Réactivité",
+        "Hygiène",
+        "Organisation"
+      ],
+      "photo": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Préparation alimentaire dans un environnement professionnel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/conducteur-conductrice-de-ligne-de-production-en-industrie-alimentaire.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "boucher",
+      "sectorId": "transformation-alimentaire",
+      "title": "Boucher·ère",
+      "searchQuery": "boucherie viande découpe vente",
+      "badge": "Métier en pénurie",
+      "summary": "Découper, préparer et présenter les viandes en conseillant la clientèle sur les produits et cuissons.",
+      "description": "Découper, préparer et présenter les viandes en conseillant la clientèle sur les produits et cuissons.",
+      "tasks": [
+        "Réceptionner et contrôler les viandes.",
+        "Découper, désosser et préparer les pièces.",
+        "Présenter, vendre et appliquer les règles d’hygiène."
+      ],
+      "environment": "Cuisine professionnelle ou atelier alimentaire, principalement debout, dans un rythme soutenu et très organisé.",
+      "schedule": "Horaires variables, matinaux ou tardifs, avec des week-ends et jours fériés possibles selon l’établissement.",
+      "access": "Une formation pratique et la maîtrise des règles d’hygiène alimentaire sont fortement recommandées.",
+      "qualities": [
+        "Dextérité",
+        "Hygiène",
+        "Précision",
+        "Contact"
+      ],
+      "photo": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Préparation alimentaire dans un environnement professionnel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/boucher-bouchere.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "boulanger-patissier",
+      "sectorId": "transformation-alimentaire",
+      "title": "Boulanger·ère-pâtissier·ère",
+      "searchQuery": "boulangerie pâtisserie fabrication",
+      "badge": "Métier en pénurie",
+      "summary": "Fabriquer pains, viennoiseries et pâtisseries en maîtrisant les fermentations, cuissons et finitions.",
+      "description": "Fabriquer pains, viennoiseries et pâtisseries en maîtrisant les fermentations, cuissons et finitions.",
+      "tasks": [
+        "Peser et préparer les pâtes.",
+        "Façonner, surveiller la fermentation et cuire.",
+        "Décorer, présenter et contrôler la qualité."
+      ],
+      "environment": "Cuisine professionnelle ou atelier alimentaire, principalement debout, dans un rythme soutenu et très organisé.",
+      "schedule": "Horaires variables, matinaux ou tardifs, avec des week-ends et jours fériés possibles selon l’établissement.",
+      "access": "Une formation pratique et la maîtrise des règles d’hygiène alimentaire sont fortement recommandées.",
+      "qualities": [
+        "Précision",
+        "Créativité",
+        "Régularité",
+        "Endurance"
+      ],
+      "photo": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Préparation alimentaire dans un environnement professionnel",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/boulanger-patissier-boulangere---patissiere.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "conducteur-poids-lourd",
+      "sectorId": "transport-logistique",
+      "title": "Conducteur·rice de poids lourd",
+      "searchQuery": "chauffeur poids lourd camion transport",
+      "badge": "Métier en pénurie",
+      "summary": "Transporter des marchandises en sécurité en respectant les itinéraires, délais et règles de conduite.",
+      "description": "Transporter des marchandises en sécurité en respectant les itinéraires, délais et règles de conduite.",
+      "tasks": [
+        "Contrôler le véhicule et le chargement.",
+        "Conduire et gérer les documents de transport.",
+        "Livrer, communiquer et signaler les incidents."
+      ],
+      "environment": "Entrepôt, quai, véhicule ou plateforme logistique, avec circulation d’engins et règles de sécurité strictes.",
+      "schedule": "Horaires réguliers ou en pauses, avec possibilités de nuit et de week-end selon les flux.",
+      "access": "Le permis adapté, l’aptitude médicale et les qualifications professionnelles de conduite sont requis.",
+      "qualities": [
+        "Vigilance",
+        "Autonomie",
+        "Ponctualité",
+        "Endurance"
+      ],
+      "photo": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Entrepôt et activité de transport de marchandises",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/conducteur-conductrice-de-poids-lourd.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "conducteur-autobus",
+      "sectorId": "transport-logistique",
+      "title": "Conducteur·rice d’autobus",
+      "searchQuery": "chauffeur bus autobus voyageurs",
+      "badge": "Métier en pénurie",
+      "summary": "Transporter des voyageurs en respectant l’itinéraire, les horaires, le confort et la sécurité.",
+      "description": "Transporter des voyageurs en respectant l’itinéraire, les horaires, le confort et la sécurité.",
+      "tasks": [
+        "Vérifier le véhicule avant le départ.",
+        "Conduire avec souplesse et ponctualité.",
+        "Accueillir, informer et gérer les situations de parcours."
+      ],
+      "environment": "Entrepôt, quai, véhicule ou plateforme logistique, avec circulation d’engins et règles de sécurité strictes.",
+      "schedule": "Horaires réguliers ou en pauses, avec possibilités de nuit et de week-end selon les flux.",
+      "access": "Le permis adapté, l’aptitude médicale et les qualifications professionnelles de conduite sont requis.",
+      "qualities": [
+        "Calme",
+        "Vigilance",
+        "Courtoisie",
+        "Ponctualité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Entrepôt et activité de transport de marchandises",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/conducteur-conductrice-d-autobus.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
+    },
+    {
+      "id": "cariste",
+      "sectorId": "transport-logistique",
+      "title": "Cariste",
+      "searchQuery": "cariste chariot élévateur entrepôt",
+      "badge": "Métier en pénurie",
+      "summary": "Déplacer et stocker les marchandises avec un chariot élévateur en préservant les personnes et les produits.",
+      "description": "Déplacer et stocker les marchandises avec un chariot élévateur en préservant les personnes et les produits.",
+      "tasks": [
+        "Contrôler le chariot et la zone.",
+        "Charger, déplacer et ranger les palettes.",
+        "Enregistrer les mouvements et signaler les anomalies."
+      ],
+      "environment": "Entrepôt, quai, véhicule ou plateforme logistique, avec circulation d’engins et règles de sécurité strictes.",
+      "schedule": "Horaires réguliers ou en pauses, avec possibilités de nuit et de week-end selon les flux.",
+      "access": "Une formation à la conduite en sécurité et une autorisation de l’employeur sont généralement demandées.",
+      "qualities": [
+        "Précision",
+        "Vigilance",
+        "Coordination",
+        "Organisation"
+      ],
+      "photo": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Entrepôt et activité de transport de marchandises",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/conducteur-conductrice-de-chariots-elevateurs.html",
+      "verifiedAt": "2026-10-15",
+      "labourMarket": {
+        "status": "shortage",
+        "scope": "Wallonie",
+        "sourceYear": 2026,
+        "sourceUrl": "https://www.leforem.be/documents/chiffres-et-analyses/analyses/analyse-liste2026-metiers-penurie.pdf"
+      }
     }
   ]
 }
