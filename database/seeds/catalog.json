@@ -1,0 +1,992 @@
+{
+  "sectors": [
+    {
+      "id": "action-sociale",
+      "label": "Action sociale",
+      "icon": "🤲",
+      "description": "Accompagnement, inclusion et soutien des personnes.",
+      "color": "#f2cf24",
+      "textColor": "#202020"
+    },
+    {
+      "id": "activites-associatives",
+      "label": "Activités associatives",
+      "icon": "🫶",
+      "description": "Projets collectifs, animation et vie associative.",
+      "color": "#c8d535",
+      "textColor": "#202020"
+    },
+    {
+      "id": "administration-publique",
+      "label": "Administration publique",
+      "icon": "🏛️",
+      "description": "Services publics et gestion administrative.",
+      "color": "#91c844",
+      "textColor": "#202020"
+    },
+    {
+      "id": "aeronautique",
+      "label": "Aéronautique",
+      "icon": "✈️",
+      "description": "Construction, entretien et exploitation aéronautique.",
+      "color": "#56b956",
+      "textColor": "#202020"
+    },
+    {
+      "id": "agriculture",
+      "label": "Agriculture",
+      "icon": "🌿",
+      "description": "Production agricole, horticulture et espaces verts.",
+      "color": "#2fac63",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "automobile",
+      "label": "Automobile",
+      "icon": "🚗",
+      "description": "Entretien, diagnostic et réparation de véhicules.",
+      "color": "#25a47e",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "bois-carton",
+      "label": "Bois et carton",
+      "icon": "🪵",
+      "description": "Transformation, fabrication et travail du bois.",
+      "color": "#269b9b",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "commerce-detail",
+      "label": "Commerce de détail",
+      "icon": "🛍️",
+      "description": "Vente et conseil auprès des particuliers.",
+      "color": "#2b91b7",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "commerce-gros",
+      "label": "Commerce de gros",
+      "icon": "📦",
+      "description": "Vente professionnelle et distribution en volume.",
+      "color": "#3183c6",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "construction",
+      "label": "Construction",
+      "icon": "⚡",
+      "description": "Bâtiment, installation et travaux publics.",
+      "color": "#3b71bd",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "education-formation",
+      "label": "Éducation et formation",
+      "icon": "🎓",
+      "description": "Transmission, apprentissage et accompagnement.",
+      "color": "#485fad",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "energie-environnement",
+      "label": "Énergie, eau et environnement",
+      "icon": "💧",
+      "description": "Énergie, assainissement et dépollution.",
+      "color": "#5c51a5",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "finances-assurances",
+      "label": "Finances, banques et assurances",
+      "icon": "💶",
+      "description": "Conseil financier, gestion et assurance.",
+      "color": "#73489f",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "genie-mecanique",
+      "label": "Génie mécanique",
+      "icon": "⚙️",
+      "description": "Production, assemblage et maintenance mécanique.",
+      "color": "#914394",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "horeca",
+      "label": "Horeca",
+      "icon": "🍳",
+      "description": "Cuisine, service et métiers de l’accueil.",
+      "color": "#ad4086",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "industries-creatives",
+      "label": "Industries culturelles et créatives",
+      "icon": "🎨",
+      "description": "Création, médias, graphisme et culture.",
+      "color": "#c94072",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "industries-extractives",
+      "label": "Industries extractives et matériaux",
+      "icon": "🧱",
+      "description": "Minéraux, verre, béton et matériaux.",
+      "color": "#d9455d",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "informatique",
+      "label": "Informatique",
+      "icon": "💻",
+      "description": "Développement, support et solutions digitales.",
+      "color": "#df4d49",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "loisirs-tourisme",
+      "label": "Loisirs et tourisme",
+      "icon": "🧭",
+      "description": "Accueil, découverte et activités touristiques.",
+      "color": "#e45e3d",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "meuble-textile",
+      "label": "Meuble, textile et autres",
+      "icon": "🧵",
+      "description": "Fabrication, confection et métiers de la matière.",
+      "color": "#e97336",
+      "textColor": "#202020"
+    },
+    {
+      "id": "pharma-chimie-plastique",
+      "label": "Pharma, chimie et plastique",
+      "icon": "🧪",
+      "description": "Production, contrôle et procédés industriels.",
+      "color": "#ec8932",
+      "textColor": "#202020"
+    },
+    {
+      "id": "sante",
+      "label": "Santé",
+      "icon": "🩺",
+      "description": "Soins, prévention et accompagnement médical.",
+      "color": "#e39d32",
+      "textColor": "#202020"
+    },
+    {
+      "id": "securite-publique",
+      "label": "Sécurité publique",
+      "icon": "🛡️",
+      "description": "Prévention, secours et protection de la population.",
+      "color": "#c89c3b",
+      "textColor": "#202020"
+    },
+    {
+      "id": "services-entreprises",
+      "label": "Services aux entreprises",
+      "icon": "🏢",
+      "description": "Support, conseil et services professionnels.",
+      "color": "#a77f3e",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "services-particuliers",
+      "label": "Services aux particuliers",
+      "icon": "✂️",
+      "description": "Bien-être, aide quotidienne et services personnels.",
+      "color": "#895f42",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "services-emploi",
+      "label": "Services liés à l’emploi",
+      "icon": "🎯",
+      "description": "Recrutement, insertion et accompagnement professionnel.",
+      "color": "#714d45",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "transformation-alimentaire",
+      "label": "Transformation alimentaire",
+      "icon": "🥫",
+      "description": "Fabrication et conditionnement de produits alimentaires.",
+      "color": "#626065",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "transport-logistique",
+      "label": "Transport et logistique",
+      "icon": "🚚",
+      "description": "Déplacement, stockage et circulation des marchandises.",
+      "color": "#41474d",
+      "textColor": "#ffffff"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "assistant-social",
+      "sectorId": "action-sociale",
+      "title": "Assistant·e social·e",
+      "searchQuery": "assistant social",
+      "badge": "",
+      "summary": "Écouter, informer et accompagner des personnes dans leurs démarches sociales et administratives.",
+      "description": "Écouter, informer et accompagner des personnes dans leurs démarches sociales et administratives.",
+      "tasks": [
+        "Analyser une situation et identifier les besoins.",
+        "Informer sur les droits et les dispositifs.",
+        "Construire un accompagnement avec la personne."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Un diplôme reconnu dans le domaine social est généralement requis. Les conditions précises dépendent de la fonction.",
+      "qualities": [
+        "Écoute",
+        "Empathie",
+        "Discrétion",
+        "Analyse"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Entretien d’accompagnement entre deux personnes",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/assistant-social-assistante-sociale.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "animateur-socioculturel",
+      "sectorId": "activites-associatives",
+      "title": "Animateur·rice socioculturel·le",
+      "searchQuery": "animateur",
+      "badge": "",
+      "summary": "Concevoir et animer des activités qui favorisent la participation, l’expression et le lien social.",
+      "description": "Concevoir et animer des activités qui favorisent la participation, l’expression et le lien social.",
+      "tasks": [
+        "Préparer un programme d’activités.",
+        "Animer un groupe et adapter l’activité.",
+        "Évaluer le projet avec les participants."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Créativité",
+        "Dynamisme",
+        "Écoute",
+        "Adaptabilité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Groupe réuni autour d’un projet collectif",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/animateur-socioculturel-animatrice-socioculturelle.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "agent-administratif-public",
+      "sectorId": "administration-publique",
+      "title": "Agent·e administratif·ve",
+      "searchQuery": "administratif",
+      "badge": "",
+      "summary": "Traiter des dossiers, accueillir les usagers et assurer le suivi administratif d’un service public.",
+      "description": "Traiter des dossiers, accueillir les usagers et assurer le suivi administratif d’un service public.",
+      "tasks": [
+        "Réceptionner et vérifier les documents.",
+        "Mettre à jour les dossiers.",
+        "Informer et orienter les usagers."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Rigueur",
+        "Clarté",
+        "Sens du service",
+        "Organisation"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace de travail administratif",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-administratif-polyvalent-agente-administrative-polyvalente.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "mecanicien-aeronautique",
+      "sectorId": "aeronautique",
+      "title": "Mécanicien·ne aéronautique",
+      "searchQuery": "aéronautique",
+      "badge": "",
+      "summary": "Contrôler, entretenir et réparer les systèmes mécaniques d’aéronefs selon des procédures strictes.",
+      "description": "Contrôler, entretenir et réparer les systèmes mécaniques d’aéronefs selon des procédures strictes.",
+      "tasks": [
+        "Inspecter les équipements et la structure.",
+        "Effectuer les opérations de maintenance.",
+        "Tracer chaque intervention technique."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Des qualifications et agréments spécifiques peuvent être exigés selon le type d’aéronef et la fonction.",
+      "qualities": [
+        "Précision",
+        "Responsabilité",
+        "Méthode",
+        "Vigilance"
+      ],
+      "photo": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Avion stationné sur une piste",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/technicien-technicienne-de-maintenance-aeronautique.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "agent-espaces-verts",
+      "sectorId": "agriculture",
+      "title": "Agent·e d’entretien des espaces verts",
+      "searchQuery": "jardin",
+      "badge": "",
+      "summary": "Entretenir et aménager jardins, parcs et espaces verts au fil des saisons.",
+      "description": "Ce métier associe connaissance des végétaux, utilisation d’outils et d’engins, soin des espaces et contact avec les clients ou usagers.",
+      "tasks": [
+        "Tondre, tailler, planter et entretenir les sols.",
+        "Utiliser et entretenir les outils en sécurité.",
+        "Aménager des parterres et espaces paysagers.",
+        "Adapter le travail aux saisons et à la météo."
+      ],
+      "environment": "Parcs, jardins privés, espaces publics ou terrains de sport, principalement en extérieur.",
+      "schedule": "Horaires parfois irréguliers selon les saisons, la météo et les chantiers.",
+      "access": "Pas d’obligation légale générale. Le permis B, l’expérience pratique et la connaissance des règles de sécurité sont appréciés.",
+      "qualities": [
+        "Bonne condition physique",
+        "Observation",
+        "Autonomie",
+        "Goût du plein air"
+      ],
+      "photo": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personne travaillant dans un jardin verdoyant",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-d-entretien-et-amenagement-des-jardins-et-des-espaces-verts.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "mecanicien-automobile",
+      "sectorId": "automobile",
+      "title": "Mécanicien·ne automobile",
+      "searchQuery": "mécanicien",
+      "badge": "Métier en pénurie",
+      "summary": "Entretenir, contrôler et réparer des voitures et véhicules utilitaires légers, avec une part croissante d’électronique et de diagnostic.",
+      "description": "Le ou la mécanicienne automobile réalise les entretiens, détecte les pannes et remplace ou règle les éléments défectueux. Le métier évolue avec les véhicules hybrides, électriques et connectés.",
+      "tasks": [
+        "Réaliser les entretiens et les contrôles de sécurité.",
+        "Identifier une panne mécanique, électrique ou électronique.",
+        "Réparer, remplacer et régler les pièces nécessaires.",
+        "Expliquer l’intervention et documenter le travail réalisé."
+      ],
+      "environment": "Garage, concession, centre auto, atelier de réparation ou service après-vente. Le travail est principalement debout et demande le respect strict des règles de sécurité.",
+      "schedule": "Le plus souvent en journée et à temps plein. Des horaires décalés ou le samedi sont possibles selon l’employeur.",
+      "access": "Il n’existe pas d’obligation légale générale pour exercer. Une formation qualifiante, le permis B et des certifications sectorielles constituent des atouts.",
+      "qualities": [
+        "Logique",
+        "Précision",
+        "Curiosité technique",
+        "Sens de la sécurité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Mécanicien travaillant sous le capot d’une voiture",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/mecanicien-mecanicienne-pour-voitures-et-vehicules-utilitaires-legers---3-5-t.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "menuisier",
+      "sectorId": "bois-carton",
+      "title": "Menuisier·ère",
+      "searchQuery": "menuisier",
+      "badge": "",
+      "summary": "Fabriquer, ajuster et poser des éléments en bois ou en matériaux dérivés.",
+      "description": "Fabriquer, ajuster et poser des éléments en bois ou en matériaux dérivés.",
+      "tasks": [
+        "Lire les plans et prendre les mesures.",
+        "Découper et assembler les pièces.",
+        "Poser et effectuer les finitions."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Précision",
+        "Habileté manuelle",
+        "Visualisation",
+        "Patience"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Atelier de fabrication et de travail des matériaux",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/menuisier-menuisiere-d-atelier.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "vendeur-magasin",
+      "sectorId": "commerce-detail",
+      "title": "Vendeur·euse en magasin",
+      "searchQuery": "vendeur",
+      "badge": "",
+      "summary": "Accueillir, conseiller et accompagner les clients jusqu’à la vente d’un produit ou service.",
+      "description": "Accueillir, conseiller et accompagner les clients jusqu’à la vente d’un produit ou service.",
+      "tasks": [
+        "Identifier le besoin du client.",
+        "Présenter et mettre en valeur les produits.",
+        "Encaisser et participer à la tenue du magasin."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Contact",
+        "Écoute",
+        "Présentation",
+        "Réactivité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Intérieur d’un commerce de détail",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/vendeur-vendeuse-en-magasin.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "commercial-b2b",
+      "sectorId": "commerce-gros",
+      "title": "Délégué·e commercial·e B2B",
+      "searchQuery": "commercial",
+      "badge": "",
+      "summary": "Développer et suivre un portefeuille de clients professionnels pour vendre des produits ou services.",
+      "description": "Développer et suivre un portefeuille de clients professionnels pour vendre des produits ou services.",
+      "tasks": [
+        "Prospecter de nouveaux clients.",
+        "Préparer une offre et négocier.",
+        "Assurer le suivi commercial."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Négociation",
+        "Persévérance",
+        "Écoute",
+        "Autonomie"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnels réunis autour d’une table",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/delegue-commercial-deleguee-commerciale-grands-comptes-et-entreprises.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "electricien-installateur",
+      "sectorId": "construction",
+      "title": "Installateur·rice électricien·ne",
+      "searchQuery": "électricien",
+      "badge": "Métier en pénurie",
+      "summary": "Installer, contrôler et dépanner les équipements électriques dans les bâtiments résidentiels, tertiaires ou industriels.",
+      "description": "L’installateur ou l’installatrice prépare le chantier, pose les câbles et appareillages, effectue les raccordements et vérifie la conformité de l’installation.",
+      "tasks": [
+        "Lire un plan et préparer l’intervention.",
+        "Poser les câbles, tableaux et équipements.",
+        "Raccorder et tester l’installation.",
+        "Diagnostiquer un défaut et sécuriser la zone."
+      ],
+      "environment": "Chantiers, habitations, commerces ou sites industriels, en autonomie ou en équipe.",
+      "schedule": "Horaires généralement de journée, avec déplacements fréquents et interventions ponctuelles urgentes.",
+      "access": "La connaissance du RGIE et les habilitations adaptées au poste sont importantes. Les exigences précises dépendent de l’employeur.",
+      "qualities": [
+        "Rigueur",
+        "Prudence",
+        "Habileté manuelle",
+        "Lecture de plans"
+      ],
+      "photo": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel intervenant sur une installation électrique",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/installateur-electricien-installatrice-electricienne.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "formateur-adultes",
+      "sectorId": "education-formation",
+      "title": "Formateur·rice d’adultes",
+      "searchQuery": "formateur",
+      "badge": "",
+      "summary": "Préparer et animer des apprentissages adaptés aux objectifs et au niveau d’un groupe d’adultes.",
+      "description": "Préparer et animer des apprentissages adaptés aux objectifs et au niveau d’un groupe d’adultes.",
+      "tasks": [
+        "Définir les objectifs pédagogiques.",
+        "Créer et animer les activités.",
+        "Évaluer les acquis et ajuster l’accompagnement."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Pédagogie",
+        "Écoute",
+        "Clarté",
+        "Adaptabilité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Personnes participant à une séance de formation",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/formateur-formatrice-pour-adultes.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "technicien-traitement-eaux",
+      "sectorId": "energie-environnement",
+      "title": "Technicien·ne de traitement des eaux",
+      "searchQuery": "eau",
+      "badge": "",
+      "summary": "Surveiller et régler les installations qui rendent l’eau utilisable ou traitent les eaux usées.",
+      "description": "Surveiller et régler les installations qui rendent l’eau utilisable ou traitent les eaux usées.",
+      "tasks": [
+        "Contrôler les paramètres de l’installation.",
+        "Prélever et analyser des échantillons.",
+        "Réaliser la maintenance de premier niveau."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Vigilance",
+        "Analyse",
+        "Rigueur",
+        "Sens de l’environnement"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Installation technique industrielle",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/technicien-technicienne-de-maintenance-de-la-distribution-et-de-l-assainissement-des-eaux.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "comptable",
+      "sectorId": "finances-assurances",
+      "title": "Comptable",
+      "searchQuery": "comptable",
+      "badge": "",
+      "summary": "Enregistrer, contrôler et analyser les opérations financières d’une organisation.",
+      "description": "Enregistrer, contrôler et analyser les opérations financières d’une organisation.",
+      "tasks": [
+        "Encoder et vérifier les pièces comptables.",
+        "Préparer les déclarations et clôtures.",
+        "Produire des tableaux de suivi."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Rigueur",
+        "Discrétion",
+        "Analyse",
+        "Organisation"
+      ],
+      "photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Documents et outils de gestion financière",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/assistant-assistante-comptable.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "soudeur",
+      "sectorId": "genie-mecanique",
+      "title": "Soudeur·euse",
+      "searchQuery": "soudeur",
+      "badge": "",
+      "summary": "Assembler durablement des pièces métalliques en appliquant le procédé de soudage adapté.",
+      "description": "Assembler durablement des pièces métalliques en appliquant le procédé de soudage adapté.",
+      "tasks": [
+        "Préparer les pièces et le poste.",
+        "Régler le matériel et réaliser la soudure.",
+        "Contrôler la qualité de l’assemblage."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Précision",
+        "Concentration",
+        "Habileté",
+        "Sécurité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Environnement industriel de fabrication",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/soudeur-soudeuse.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "cuisinier",
+      "sectorId": "horeca",
+      "title": "Cuisinier·ère",
+      "searchQuery": "cuisine",
+      "badge": "Nombreuses opportunités",
+      "summary": "Préparer les plats, organiser la production et garantir la qualité, l’hygiène et la sécurité alimentaire.",
+      "description": "Le cuisinier ou la cuisinière prépare les ingrédients et les plats, organise son poste et travaille au rythme du service avec le reste de la brigade.",
+      "tasks": [
+        "Préparer les produits et réaliser les recettes.",
+        "Organiser le poste et gérer les priorités.",
+        "Contrôler la qualité et la conservation.",
+        "Appliquer les normes d’hygiène et de sécurité."
+      ],
+      "environment": "Restaurant, collectivité, traiteur, hôtel ou cuisine centrale. Le travail se fait debout et souvent en équipe.",
+      "schedule": "Les horaires peuvent être coupés et inclure les soirées, week-ends et jours fériés.",
+      "access": "Pas d’obligation légale générale, mais la connaissance des règles HACCP et une bonne condition physique sont des atouts.",
+      "qualities": [
+        "Organisation",
+        "Créativité",
+        "Rapidité",
+        "Résistance au stress"
+      ],
+      "photo": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnel préparant un plat en cuisine",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/cuisinier-cuisiniere.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "infographiste",
+      "sectorId": "industries-creatives",
+      "title": "Infographiste",
+      "searchQuery": "graphique",
+      "badge": "",
+      "summary": "Concevoir des visuels clairs et attractifs pour des supports imprimés ou numériques.",
+      "description": "Concevoir des visuels clairs et attractifs pour des supports imprimés ou numériques.",
+      "tasks": [
+        "Interpréter un brief créatif.",
+        "Créer et décliner une identité visuelle.",
+        "Préparer les fichiers pour leur diffusion."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Créativité",
+        "Sens visuel",
+        "Précision",
+        "Curiosité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Écran utilisé pour une création numérique",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/graphiste-infographiste.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "operateur-materiaux",
+      "sectorId": "industries-extractives",
+      "title": "Opérateur·rice de production de matériaux",
+      "searchQuery": "production",
+      "badge": "",
+      "summary": "Conduire et surveiller une installation qui transforme des matières minérales en produits finis.",
+      "description": "Conduire et surveiller une installation qui transforme des matières minérales en produits finis.",
+      "tasks": [
+        "Démarrer et surveiller la ligne.",
+        "Contrôler la qualité du produit.",
+        "Signaler les anomalies et entretenir le poste."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Vigilance",
+        "Rigueur",
+        "Réactivité",
+        "Sécurité"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Site industriel de production",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-production-materiaux-de-construction-et-prefabriques.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "developpeur-logiciels",
+      "sectorId": "informatique",
+      "title": "Développeur·euse de logiciels",
+      "searchQuery": "développeur",
+      "badge": "Métier en pénurie",
+      "summary": "Concevoir, développer, tester et maintenir des applications adaptées aux besoins des utilisateurs et des entreprises.",
+      "description": "Le développement logiciel combine logique, créativité et collaboration. Les technologies évoluent rapidement et demandent un apprentissage continu.",
+      "tasks": [
+        "Comprendre et traduire un besoin en solution.",
+        "Écrire et tester du code.",
+        "Corriger les erreurs et améliorer les performances.",
+        "Collaborer avec les équipes produit et design."
+      ],
+      "environment": "Entreprise informatique, service numérique interne, agence ou travail à distance, généralement en équipe.",
+      "schedule": "Horaires souvent de bureau, avec des périodes plus intenses avant une livraison.",
+      "access": "Aucune obligation légale générale. Un portfolio, une formation et la maîtrise de technologies actuelles facilitent l’accès au métier.",
+      "qualities": [
+        "Logique",
+        "Autonomie",
+        "Travail en équipe",
+        "Apprentissage continu"
+      ],
+      "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Écran affichant du code dans un environnement de travail numérique",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/developpeur-developpeuse-de-logiciels.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "agent-accueil-touristique",
+      "sectorId": "loisirs-tourisme",
+      "title": "Agent·e d’accueil touristique",
+      "searchQuery": "tourisme",
+      "badge": "",
+      "summary": "Accueillir les visiteurs et leur proposer des informations et activités adaptées à leur séjour.",
+      "description": "Accueillir les visiteurs et leur proposer des informations et activités adaptées à leur séjour.",
+      "tasks": [
+        "Informer et orienter les visiteurs.",
+        "Présenter les activités et sites locaux.",
+        "Gérer les demandes dans plusieurs canaux."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Accueil",
+        "Curiosité locale",
+        "Langues",
+        "Communication"
+      ],
+      "photo": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Voyageur consultant une carte dans une ville",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/agent-agente-d-accueil.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "tapissier-garnisseur",
+      "sectorId": "meuble-textile",
+      "title": "Tapissier·ère-garnisseur·euse",
+      "searchQuery": "textile",
+      "badge": "",
+      "summary": "Restaurer ou fabriquer les garnitures et revêtements de sièges et de mobilier.",
+      "description": "Restaurer ou fabriquer les garnitures et revêtements de sièges et de mobilier.",
+      "tasks": [
+        "Dégarnir et examiner la structure.",
+        "Découper et assembler les matériaux.",
+        "Poser le revêtement et réaliser les finitions."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Habileté",
+        "Patience",
+        "Sens esthétique",
+        "Précision"
+      ],
+      "photo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Atelier présentant des matériaux et objets fabriqués",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/tapissier-garnisseur-tapissiere---garnisseuse.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "operateur-pharmaceutique",
+      "sectorId": "pharma-chimie-plastique",
+      "title": "Opérateur·rice de production pharmaceutique",
+      "searchQuery": "pharmaceutique",
+      "badge": "",
+      "summary": "Conduire une production en respectant des procédures strictes de qualité, d’hygiène et de traçabilité.",
+      "description": "Conduire une production en respectant des procédures strictes de qualité, d’hygiène et de traçabilité.",
+      "tasks": [
+        "Préparer le poste et les matières.",
+        "Piloter et surveiller les équipements.",
+        "Documenter les contrôles et incidents."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Rigueur",
+        "Hygiène",
+        "Traçabilité",
+        "Concentration"
+      ],
+      "photo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipements de production en environnement contrôlé",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-production-en-industrie-bio-pharmaceutique.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "aide-soignant",
+      "sectorId": "sante",
+      "title": "Aide-soignant·e",
+      "searchQuery": "aide-soignant",
+      "badge": "Métier en pénurie",
+      "summary": "Accompagner les patients dans les soins d’hygiène et de confort et assister l’équipe infirmière.",
+      "description": "L’aide-soignant ou l’aide-soignante contribue au bien-être quotidien des personnes, observe leur état et transmet les informations utiles à l’équipe de soins.",
+      "tasks": [
+        "Aider dans les gestes de la vie quotidienne.",
+        "Réaliser des soins d’hygiène et de confort.",
+        "Observer et transmettre les changements d’état.",
+        "Respecter la confidentialité et le plan de soins."
+      ],
+      "environment": "Hôpital, maison de repos, institution ou domicile. Le contact humain est permanent.",
+      "schedule": "Horaires variables, avec possibilité de nuits, week-ends et jours fériés selon la structure.",
+      "access": "Le métier est réglementé. Une qualification reconnue et l’enregistrement requis doivent être obtenus.",
+      "qualities": [
+        "Écoute",
+        "Empathie",
+        "Discrétion",
+        "Résistance physique"
+      ],
+      "photo": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Professionnelle de la santé échangeant avec une patiente",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/aide-soignant-aide-soignante.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "inspecteur-police",
+      "sectorId": "securite-publique",
+      "title": "Inspecteur·rice de police",
+      "searchQuery": "sécurité",
+      "badge": "",
+      "summary": "Prévenir les infractions, intervenir, constater les faits et contribuer à la sécurité de la population.",
+      "description": "Prévenir les infractions, intervenir, constater les faits et contribuer à la sécurité de la population.",
+      "tasks": [
+        "Assurer une présence préventive.",
+        "Intervenir et recueillir les informations.",
+        "Rédiger les constats et rapports."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "L’accès à la fonction est réglementé et comprend des conditions de sélection, de formation et d’aptitude.",
+      "qualities": [
+        "Sang-froid",
+        "Intégrité",
+        "Observation",
+        "Communication"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Équipe professionnelle en réunion opérationnelle",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/inspecteur-inspectrice-de-police.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "assistant-administratif",
+      "sectorId": "services-entreprises",
+      "title": "Assistant·e administratif·ve",
+      "searchQuery": "assistant administratif",
+      "badge": "",
+      "summary": "Organiser l’information, les rendez-vous et les documents nécessaires au fonctionnement d’une entreprise.",
+      "description": "Organiser l’information, les rendez-vous et les documents nécessaires au fonctionnement d’une entreprise.",
+      "tasks": [
+        "Gérer les courriels et documents.",
+        "Organiser les agendas et réunions.",
+        "Assurer le suivi administratif des dossiers."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Organisation",
+        "Discrétion",
+        "Communication",
+        "Priorisation"
+      ],
+      "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Bureau organisé pour le travail administratif",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/assistant-assistante-de-direction.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "coiffeur",
+      "sectorId": "services-particuliers",
+      "title": "Coiffeur·euse",
+      "searchQuery": "coiffeur",
+      "badge": "",
+      "summary": "Conseiller les clients et réaliser des coupes, colorations et coiffures adaptées à leurs attentes.",
+      "description": "Conseiller les clients et réaliser des coupes, colorations et coiffures adaptées à leurs attentes.",
+      "tasks": [
+        "Accueillir et conseiller le client.",
+        "Réaliser les soins et techniques de coiffure.",
+        "Entretenir le poste et le matériel."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Contact",
+        "Créativité",
+        "Habileté",
+        "Écoute"
+      ],
+      "photo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Espace intérieur consacré au service des clients",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/coiffeur-coiffeuse.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "conseiller-emploi",
+      "sectorId": "services-emploi",
+      "title": "Conseiller·ère en emploi",
+      "searchQuery": "emploi",
+      "badge": "",
+      "summary": "Accompagner des personnes dans leur projet professionnel, leur recherche d’emploi ou leur reconversion.",
+      "description": "Accompagner des personnes dans leur projet professionnel, leur recherche d’emploi ou leur reconversion.",
+      "tasks": [
+        "Analyser le parcours et les objectifs.",
+        "Proposer des actions et ressources adaptées.",
+        "Suivre l’avancement du projet."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Écoute",
+        "Analyse",
+        "Encouragement",
+        "Connaissance du marché"
+      ],
+      "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Entretien professionnel entre deux personnes",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/conseiller-conseillere-en-insertion-professionnelle.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "operateur-alimentaire",
+      "sectorId": "transformation-alimentaire",
+      "title": "Opérateur·rice de production alimentaire",
+      "searchQuery": "alimentaire",
+      "badge": "",
+      "summary": "Fabriquer et conditionner des produits alimentaires en respectant les recettes, l’hygiène et la qualité.",
+      "description": "Fabriquer et conditionner des produits alimentaires en respectant les recettes, l’hygiène et la qualité.",
+      "tasks": [
+        "Préparer les matières et équipements.",
+        "Surveiller la fabrication.",
+        "Contrôler et conditionner les produits."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Hygiène",
+        "Rigueur",
+        "Rythme",
+        "Travail en équipe"
+      ],
+      "photo": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Préparation de produits dans un environnement alimentaire",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/operateur-operatrice-de-production-en-industrie-alimentaire.html",
+      "verifiedAt": null
+    },
+    {
+      "id": "magasinier",
+      "sectorId": "transport-logistique",
+      "title": "Magasinier·ère",
+      "searchQuery": "logistique",
+      "badge": "",
+      "summary": "Réceptionner, stocker, préparer et expédier les marchandises en assurant leur traçabilité.",
+      "description": "Réceptionner, stocker, préparer et expédier les marchandises en assurant leur traçabilité.",
+      "tasks": [
+        "Contrôler les réceptions.",
+        "Ranger et inventorier les produits.",
+        "Préparer et sécuriser les expéditions."
+      ],
+      "environment": "Les lieux et conditions de travail varient selon l’employeur et la fonction exercée.",
+      "schedule": "Les horaires dépendent du poste, du secteur et de l’organisation. Ils sont à confirmer avant toute démarche.",
+      "access": "Les diplômes, permis ou certifications demandés varient selon le poste. Vérifie toujours les conditions sur la source officielle.",
+      "qualities": [
+        "Organisation",
+        "Précision",
+        "Vigilance",
+        "Condition physique"
+      ],
+      "photo": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1400&q=82",
+      "photoAlt": "Entrepôt logistique avec rayonnages et marchandises",
+      "foremUrl": "https://www.leforem.be/infos-metiers/metiers/magasinier-magasiniere.html",
+      "verifiedAt": null
+    }
+  ]
+}

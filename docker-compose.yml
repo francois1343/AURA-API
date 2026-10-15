@@ -1,0 +1,23 @@
+services:
+  database:
+    image: mariadb:11.4
+    container_name: aura-api-database
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: aura
+      MARIADB_USER: aura
+      MARIADB_PASSWORD: aura_local_password
+      MARIADB_ROOT_PASSWORD: aura_root_local_password
+    ports:
+      - "3307:3306"
+    volumes:
+      - aura_database:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  aura_database:
+
