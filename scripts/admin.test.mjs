@@ -29,7 +29,8 @@ function client() {
       const multipart = body instanceof FormData
       if (multipart && !body.has('_csrf')) body.set('_csrf', csrf)
       const form = body && !multipart && typeof body !== 'string' ? new URLSearchParams({ _csrf: csrf, ...body }) : body
-      const response = await fetch(base + path, { method, redirect: 'manual', headers: { ...(cookie ? { Cookie: cookie } : {}), ...headers }, ...(form === undefined ? {} : { body: form }) })
+      const navigation = method === 'POST' ? { Origin: base, 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Dest': 'document' } : {}
+      const response = await fetch(base + path, { method, redirect: 'manual', headers: { ...(cookie ? { Cookie: cookie } : {}), ...navigation, ...headers }, ...(form === undefined ? {} : { body: form }) })
       if (response.headers.get('set-cookie')) cookie = response.headers.get('set-cookie').split(';')[0]
       const text = Buffer.from(await response.arrayBuffer()).toString('utf8')
       const token = text.match(/name="_csrf" value="([a-f0-9]+)"/)
@@ -107,6 +108,26 @@ test('session bootstrap and login use secure session conventions and CSRF', asyn
   assert.match(dashboard.headers.get('content-security-policy'), /default-src 'none'/)
   assert.equal(dashboard.headers.get('x-frame-options'), 'DENY')
   assert.match(dashboard.headers.get('cache-control'), /no-store/)
+})
+test('native form policy preserves the same-origin POST context without accepting opaque or foreign origins', async () => {
+  const actor = client()
+  const page = await actor.call('/admin/login')
+  // no-referrer makes native POST navigations send Origin: null (unlike fetch).
+  // Keep this header regression assertion: HTTP clients do not apply browser policies.
+  assert.equal(page.headers.get('referrer-policy'), 'same-origin')
+  for (const origin of ['null', 'https://attacker.invalid', 'http://127.0.0.1:5173']) {
+    const denied = await actor.call('/admin/login', 'POST', { email, password }, { Origin: origin })
+    assert.equal(denied.status, 403)
+    assert.match(denied.text, /data-error-code="origin_denied"/)
+  }
+  const before = state()
+  assert.equal((await actor.call('/admin/login', 'POST', { email, password })).status, 303)
+  const dashboard = await actor.call('/admin')
+  assert.equal(dashboard.headers.get('referrer-policy'), 'same-origin')
+  const csv = (await actor.call('/admin/export')).text
+  assert.equal((await upload(csv, { actor })).status, 303)
+  assert.deepEqual(state(), before)
+  assert.equal((await actor.call('/admin/logout', 'POST', {})).status, 303)
 })
 test('initial dashboard has one active CSV and no previous version or full editor', async () => {
   const value = await current()

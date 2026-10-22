@@ -64,7 +64,10 @@ final class AdminPage
         header('Cache-Control: no-store, private');
         header('X-Content-Type-Options: nosniff');
         header('X-Frame-Options: DENY');
-        header('Referrer-Policy: no-referrer');
+        // Native form POSTs need their real Origin. no-referrer can turn it into
+        // "null", which our same-origin check rightly rejects. Still send no
+        // referrer information to other origins.
+        header('Referrer-Policy: same-origin');
         header("Content-Security-Policy: default-src 'none'; style-src 'self'; img-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'");
         if ($path === '/admin/assets/style.css' && $method === 'GET') {
             header('Content-Type: text/css; charset=utf-8');
