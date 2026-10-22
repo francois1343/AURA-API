@@ -21,8 +21,8 @@ final class CsvAdminSession
         ini_set('session.use_strict_mode', '1');
         ini_set('session.use_only_cookies', '1');
         ini_set('session.gc_maxlifetime', '28800');
-        session_name('AURA_CSV_ADMIN');
-        session_set_cookie_params(['lifetime' => 0, 'path' => '/api/v1/admin', 'secure' => $secure, 'httponly' => true, 'samesite' => 'Lax']);
+        session_name('AURA_SSR_ADMIN');
+        session_set_cookie_params(['lifetime' => 0, 'path' => '/admin', 'secure' => $secure, 'httponly' => true, 'samesite' => 'Lax']);
         if (!session_start()) throw new \RuntimeException('Impossible de démarrer la session.');
         $_SESSION['csrf'] ??= bin2hex(random_bytes(32));
     }
@@ -38,7 +38,7 @@ final class CsvAdminSession
 
     public static function csrf(): void
     {
-        $token = $_SERVER['HTTP_X_CSRF_TOKEN'] ?? '';
+        $token = $_POST['_csrf'] ?? '';
         if (!is_string($token) || !hash_equals($_SESSION['csrf'], $token)) throw new ApiException(403, 'invalid_csrf', 'Le formulaire a expiré. Rechargez la page avant de réessayer.');
     }
 

@@ -2,7 +2,9 @@
 
 Détails conservés lors de la simplification du 22 octobre 2026. Pour le démarrage rapide, voir le [README](../README.md).
 
-MVP AURA : **un CSV actif, une seule version précédente**, connexion protégée et dashboard sur http://127.0.0.1:5173/admin.
+MVP AURA : **un CSV actif, une seule version précédente**, connexion protégée et dashboard PHP sur http://127.0.0.1:8000/admin.
+
+L’administration est rendue par PHP (SSR), sans JavaScript, React, token d’authentification côté client ni endpoint de session JSON. Les formulaires HTML utilisent un cookie de session PHP et un champ caché anti-CSRF. Le logo retourne à `/admin` sur le même serveur. AURA reste une application publique indépendante.
 
 Aucun Laravel, Composer ou accès MariaDB nécessaire au runtime. Les anciennes classes SQL, migrations et données sont conservées pour l’archive et la copie ponctuelle. Les anciennes routes métiers répondent 410.
 
@@ -81,15 +83,16 @@ Ni comptes ni métadonnées du personnel ne sont exposés par le catalogue publi
 | --- | --- | --- |
 | GET | /api/v1/catalog | Catalogue JSON public lu depuis le CSV actif. |
 | GET | /health ou /api/v1/health | État du stockage CSV, sans SQL. |
-| GET | /api/v1/admin/session | Session et jeton CSRF. |
-| POST | /api/v1/admin/login | JSON email/password + CSRF. |
-| POST | /api/v1/admin/logout | CSRF. |
-| GET | /api/v1/admin/catalog | Métadonnées actif/précédent et révision. |
-| GET | /api/v1/admin/catalog/export | JSON filename/csv/revision pour téléchargement. |
-| POST | /api/v1/admin/catalog/import | multipart : catalogue, revision, confirmation=REMPLACER + CSRF. |
-| POST | /api/v1/admin/catalog/restore | JSON revision, confirmation=REVENIR + CSRF. |
+| GET | /admin/login | Page HTML de connexion et champ caché `_csrf`. |
+| POST | /admin/login | Formulaire email/password/_csrf, puis redirection 303. |
+| POST | /admin/logout | Formulaire `_csrf`, puis redirection 303. |
+| GET | /admin | Dashboard HTML protégé : actif/précédent, import, téléchargement. |
+| GET | /admin/export | Téléchargement direct CSV protégé, pas d’enveloppe JSON. |
+| POST | /admin/import | Formulaire multipart : catalogue, revision, confirmation=REMPLACER, _csrf. |
+| GET | /admin/restore | Page de confirmation protégée ; ne modifie rien. |
+| POST | /admin/restore | Formulaire revision, confirmation=REVENIR, _csrf. |
 
-HTTP 401/403 : accès refusé ; 409 : révision périmée ou retour impossible ; 422 : fichier/formulaire refusé. Les anciennes mutations fiche par fiche et import preview/commit sont retirées.
+Un visiteur non connecté est redirigé vers `/admin/login`. HTTP 401 : connexion refusée ; 403 : CSRF/origine refusée ; 409 : révision périmée ou retour impossible ; 422 : fichier/formulaire refusé. Après une mutation réussie, redirection 303 vers le dashboard et message à usage unique : actualiser la page ne renvoie pas le fichier. Les erreurs sont rendues en HTML, avec échappement des données. Les anciennes routes JSON `/api/v1/admin/*` répondent 410 ; aucune mutation via GET. Les anciennes mutations fiche par fiche et import preview/commit sont retirées.
 
 ## Production
 
@@ -97,9 +100,9 @@ Une instance PHP et un **disque persistant privé** sont requis. Le stockage doi
 
 Configurer HTTPS, APP_ENV=production, APP_DEBUG=false, SESSION_COOKIE_SECURE=true, origines autorisées, upload_max_filesize au moins à 1M et post_max_size supérieur pour l’enveloppe multipart. Le dossier web est public/, jamais la racine du dépôt.
 
-Connexion : sessions HttpOnly/SameSite=Lax, rotation à la connexion, expiration après 30 minutes d’inactivité/8 heures maximum, compte actif contrôlé, CSRF et limitation persistante des tentatives. Désactiver le compte démo avant exposition publique. Ces protections ne valent pas audit de production.
+Connexion : session `AURA_SSR_ADMIN`, cookie HttpOnly/SameSite=Lax limité à `/admin`, rotation à la connexion, expiration après 30 minutes d’inactivité/8 heures maximum, compte actif contrôlé et limitation persistante des tentatives. Les champs `_csrf` restent uniquement dans les formulaires PHP ; l’ancien en-tête `X-CSRF-Token` n’est plus accepté comme substitut. Les envois depuis une autre origine sont refusés. CSP sans scripts, anti-iframe, réponses privées non mises en cache. Désactiver le compte démo avant exposition publique. Ces protections ne valent pas audit de production.
 
-AURA reste sur Vercel : configurer le relais /api vers PHP avant la réécriture SPA, sans cache des réponses de gestion. Secrets et fichiers restent côté PHP. Aucune URL de production n’est configurée ici.
+AURA reste sur Vercel : configurer le relais public /api vers PHP avant la réécriture SPA. Le dashboard s’ouvre directement sur le serveur PHP, sans proxy d’authentification React. CORS ne concerne que la lecture publique du catalogue, sans credentials ; les formulaires d’administration restent de même origine. Secrets et fichiers restent côté PHP. Aucune URL de production n’est configurée ici.
 
 ## Vérifier
 
@@ -108,4 +111,4 @@ node --test scripts/admin.test.mjs
 php scripts/validate.php
 ~~~
 
-22 tests HTTP/PHP utilisent un dossier temporaire isolé, sans Docker ni base. La seconde commande contrôle la syntaxe PHP et le seed métiers historique conservé. Aucun test d’import ou retour arrière ne remplace le catalogue de travail.
+24 tests HTTP/PHP utilisent un dossier temporaire isolé, sans Docker ni base : formulaires SSR, accès privés, CSRF, cookie, redirections, import/export, retour arrière, échappement HTML et formats CSV. La seconde commande contrôle la syntaxe PHP et le seed métiers historique conservé. Aucun test d’import ou retour arrière ne remplace le catalogue de travail. La recette visuelle/tactile reste à effectuer dans un navigateur connecté.

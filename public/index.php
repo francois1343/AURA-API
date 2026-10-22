@@ -4,28 +4,29 @@ declare(strict_types=1);
 use Aura\Api\Config;
 use Aura\Api\Http\ApiException;
 use Aura\Api\Http\JsonResponse;
-use Aura\Api\Http\TrainingAdmin;
+use Aura\Api\Http\AdminPage;
 use Aura\Api\Repository\FileCatalogRepository;
 
 require dirname(__DIR__) . '/src/bootstrap.php';
 
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
+$requestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
+$method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
+if ($requestPath === '/admin' || str_starts_with($requestPath, '/admin/')) AdminPage::handle($requestPath, $method);
 if ($origin !== '' && in_array($origin, Config::list('CORS_ALLOWED_ORIGINS'), true)) {
     header('Access-Control-Allow-Origin: ' . $origin);
     header('Vary: Origin');
-    header('Access-Control-Allow-Credentials: true');
 }
-header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
-header('Access-Control-Allow-Headers: Content-Type, Accept, X-CSRF-Token');
+header('Access-Control-Allow-Methods: GET, OPTIONS');
+header('Access-Control-Allow-Headers: Accept');
 header('X-Content-Type-Options: nosniff');
 header('Cache-Control: no-store');
 if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'OPTIONS') { http_response_code(204); exit; }
-$path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
+$path = $requestPath;
 $path = preg_replace('#^/api/v1(?=/|$)#', '', $path) ?: '/';
-$method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
 
 try {
-    if (str_starts_with($path, '/admin/')) TrainingAdmin::handle($path, $method, $origin);
+    if ($path === '/admin' || str_starts_with($path, '/admin/')) throw new ApiException(410, 'admin_api_retired', 'La gestion utilise maintenant les pages PHP à /admin.');
     if ($method !== 'GET') throw new ApiException(405, 'method_not_allowed', 'Cette méthode HTTP n’est pas autorisée.');
     if ($path === '/catalog') JsonResponse::send((new FileCatalogRepository())->current());
     if ($path === '/health') {

@@ -1,6 +1,6 @@
 # AURA-API
 
-Serveur **PHP vanilla** d’AURA : catalogue CSV, connexion protégée, import/export et retour à une seule version précédente. Aucun Laravel, Composer, MariaDB ou Docker nécessaire au fonctionnement courant.
+Serveur **PHP vanilla** d’AURA : catalogue JSON lu depuis le CSV et dashboard rendu en PHP (SSR), avec connexion, import/export et retour à une seule version précédente. Aucun Laravel, Composer, MariaDB ou Docker nécessaire au fonctionnement courant.
 
 ## Démarrer en local
 
@@ -12,7 +12,7 @@ Depuis ce dépôt :
 php -S 127.0.0.1:8000 -t public public/index.php
 ```
 
-L’interface et son dashboard sont dans le dépôt AURA : http://127.0.0.1:5173/admin. Le serveur PHP intégré est réservé au développement.
+Ouvrir [le dashboard PHP](http://127.0.0.1:8000/admin). L’application publique reste dans AURA sur le port 5173. Le serveur PHP intégré est réservé au développement.
 
 ## Première installation
 
@@ -31,6 +31,8 @@ Ces étapes ne sont pas à répéter au démarrage. Une initialisation répété
 ## Utiliser le catalogue
 
 Depuis le dashboard : télécharger le CSV, modifier ses lignes, puis importer le fichier complet après confirmation. Les lignes absentes sont retirées. La version remplacée reste disponible pour un retour arrière.
+
+Les pages et formulaires fonctionnent sans JavaScript. PHP gère le cookie de session et les champs cachés anti-CSRF ; aucun token d’authentification n’est transmis à React. Les comptes existants restent valables, avec une nouvelle connexion nécessaire.
 
 Utiliser de préférence le CSV exporté : 33 colonnes, UTF-8, point-virgule, 1 Mio maximum. Les informations pédagogiques peuvent rester incomplètes ; un fichier vide ou incompatible est refusé sans remplacement.
 
