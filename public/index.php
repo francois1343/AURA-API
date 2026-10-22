@@ -5,6 +5,9 @@ declare(strict_types=1);
 use Aura\Api\Config;
 use Aura\Api\Database;
 use Aura\Api\Http\JsonResponse;
+use Aura\Api\Http\ApiException;
+use Aura\Api\Http\TrainingAdmin;
+use Aura\Api\Repository\TrainingCatalogRepository;
 use Aura\Api\Repository\JobRepository;
 use Aura\Api\Repository\SectorRepository;
 
@@ -16,25 +19,27 @@ $allowedOrigins = Config::list('CORS_ALLOWED_ORIGINS');
 if ($origin !== '' && in_array($origin, $allowedOrigins, true)) {
     header('Access-Control-Allow-Origin: ' . $origin);
     header('Vary: Origin');
+    header('Access-Control-Allow-Credentials: true');
 }
 
-header('Access-Control-Allow-Methods: GET, OPTIONS');
-header('Access-Control-Allow-Headers: Content-Type, Accept');
+header('Access-Control-Allow-Methods: GET, POST, PATCH, DELETE, OPTIONS');
+header('Access-Control-Allow-Headers: Content-Type, Accept, X-CSRF-Token');
 header('X-Content-Type-Options: nosniff');
+header('Cache-Control: no-store');
 
 if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'OPTIONS') {
     http_response_code(204);
     exit;
 }
 
-if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'GET') {
-    JsonResponse::error('method_not_allowed', 'Cette méthode HTTP n’est pas autorisée.', 405);
-}
-
 $path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
-$path = preg_replace('#^/api/v1#', '', $path) ?: '/';
+$path = preg_replace('#^/api/v1(?=/|$)#', '', $path) ?: '/';
+$method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
 
 try {
+    if (str_starts_with($path, '/admin/')) TrainingAdmin::handle($path, $method, $origin);
+    if ($method !== 'GET') JsonResponse::error('method_not_allowed', 'Cette méthode HTTP n’est pas autorisée.', 405);
+    if ($path === '/catalog') JsonResponse::send((new TrainingCatalogRepository(Database::connection()))->current()['catalog']);
     if ($path === '/health') {
         Database::connection()->query('SELECT 1');
         JsonResponse::send([
@@ -99,6 +104,8 @@ try {
     }
 
     JsonResponse::error('route_not_found', 'Cette route API n’existe pas.', 404);
+} catch (ApiException $exception) {
+    JsonResponse::send(['error' => ['code' => $exception->errorCode, 'message' => $exception->getMessage(), 'details' => $exception->details]], $exception->status);
 } catch (Throwable $exception) {
     $payload = [
         'error' => [
@@ -107,7 +114,7 @@ try {
         ],
     ];
 
-    if (Config::bool('APP_DEBUG')) {
+    if (Config::bool('APP_DEBUG') && !str_starts_with($path, '/admin/')) {
         $payload['error']['debug'] = $exception->getMessage();
     }
 
