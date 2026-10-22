@@ -4,74 +4,54 @@ declare(strict_types=1);
 namespace Aura\Api\Http;
 
 use Aura\Api\Config;
-use Aura\Api\Database;
-use Aura\Api\Repository\TrainingCatalogRepository;
-use Aura\Api\Security\AdminSession;
+use Aura\Api\Repository\FileCatalogRepository;
+use Aura\Api\Security\CsvAdminSession;
 
 final class TrainingAdmin
 {
     public static function body(): array
     {
-        if (strtolower(trim(explode(';', $_SERVER['CONTENT_TYPE'] ?? '')[0])) !== 'application/json') throw new ApiException(415, 'json_required', 'Le formulaire doit être envoyé en JSON.');
-        $raw = file_get_contents('php://input', length: 2097153);
-        if ($raw === false || strlen($raw) > 2097152) throw new ApiException(413, 'payload_too_large', 'La fiche est trop volumineuse.');
-        try { $body = json_decode($raw, true, 32, JSON_THROW_ON_ERROR); }
-        catch (\JsonException) { throw new ApiException(400, 'invalid_json', 'Le JSON est invalide.'); }
+        if (strtolower(trim(explode(';', $_SERVER['CONTENT_TYPE'] ?? '')[0])) !== 'application/json') throw new ApiException(415, 'json_required', 'Un formulaire JSON est attendu.');
+        $raw = file_get_contents('php://input', length: 8193);
+        if ($raw === false || strlen($raw) > 8192) throw new ApiException(413, 'payload_too_large', 'Le formulaire est trop volumineux.');
+        try { $body = json_decode($raw, true, 16, JSON_THROW_ON_ERROR); }
+        catch (\JsonException) { throw new ApiException(400, 'invalid_json', 'Le formulaire est invalide.'); }
         if (!is_array($body) || array_is_list($body)) throw new ApiException(400, 'invalid_json', 'Un objet JSON est attendu.');
         return $body;
     }
 
     public static function handle(string $path, string $method, string $origin): never
     {
-        header('Cache-Control: no-store');
         if ($origin !== '' && !in_array($origin, Config::list('CORS_ALLOWED_ORIGINS'), true)) throw new ApiException(403, 'origin_denied', 'Cette origine n’est pas autorisée.');
-        AdminSession::start();
-        // Session bootstrap remains available when the database is down.
-        if ($path === '/admin/session' && $method === 'GET') {
-            $user = isset($_SESSION['user_id']) ? AdminSession::user(Database::connection()) : null;
-            JsonResponse::send(['user' => $user, 'csrfToken' => $_SESSION['csrf']]);
-        }
+        CsvAdminSession::start();
+        if ($path === '/admin/session' && $method === 'GET') JsonResponse::send(['user' => CsvAdminSession::user(), 'csrfToken' => $_SESSION['csrf']]);
         if ($path === '/admin/login' && $method === 'POST') {
-            AdminSession::csrf();
-            $user = AdminSession::login(Database::connection(), self::body());
-            JsonResponse::send(['user' => $user, 'csrfToken' => $_SESSION['csrf']]);
+            CsvAdminSession::csrf();
+            JsonResponse::send(['user' => CsvAdminSession::login(self::body()), 'csrfToken' => $_SESSION['csrf']]);
         }
         if ($path === '/admin/logout' && $method === 'POST') {
-            AdminSession::csrf();
-            AdminSession::logout();
+            CsvAdminSession::csrf(); CsvAdminSession::logout();
             JsonResponse::send(['user' => null, 'csrfToken' => $_SESSION['csrf']]);
         }
-        if (!isset($_SESSION['user_id'])) throw new ApiException(401, 'authentication_required', 'Connectez-vous pour accéder à la gestion du catalogue.');
-        $db = Database::connection();
-        $user = AdminSession::user($db);
-        if (!$user) throw new ApiException(401, 'authentication_required', 'Votre session a expiré. Reconnectez-vous.');
-        $repository = new TrainingCatalogRepository($db);
-        if ($path === '/admin/catalog' && $method === 'GET') JsonResponse::send($repository->current());
-        if ($path === '/admin/catalog/export' && $method === 'GET') JsonResponse::send($repository->exportCsv());
-        if ($path === '/admin/trainings' && $method === 'POST') {
-            AdminSession::csrf();
-            JsonResponse::send($repository->create(self::body(), $user['email']), 201);
+        $user = CsvAdminSession::user();
+        if (!$user) throw new ApiException(401, 'authentication_required', 'Connectez-vous pour gérer le catalogue CSV.');
+        $repository = new FileCatalogRepository();
+        if ($path === '/admin/catalog' && $method === 'GET') JsonResponse::send($repository->status());
+        if ($path === '/admin/catalog/export' && $method === 'GET') JsonResponse::send($repository->export());
+        if ($path === '/admin/catalog/import' && $method === 'POST') {
+            CsvAdminSession::csrf();
+            if (!str_starts_with(strtolower($_SERVER['CONTENT_TYPE'] ?? ''), 'multipart/form-data;')) throw new ApiException(415, 'file_required', 'Un fichier CSV est attendu.');
+            $file = $_FILES['catalogue'] ?? null;
+            if (!$file || is_array($file['error'] ?? null) || ($file['error'] ?? UPLOAD_ERR_NO_FILE) !== UPLOAD_ERR_OK || !is_string($file['tmp_name'] ?? null) || !is_uploaded_file($file['tmp_name'])) throw new ApiException(422, 'invalid_upload', 'Le fichier n’a pas été reçu correctement. Choisissez un CSV de 1 Mo maximum.');
+            if (($_POST['confirmation'] ?? '') !== 'REMPLACER') throw new ApiException(422, 'confirmation_required', 'Confirmez le remplacement du catalogue complet.');
+            $revision = filter_var($_POST['revision'] ?? null, FILTER_VALIDATE_INT);
+            if ($revision === false || $revision < 1) throw new ApiException(422, 'invalid_revision', 'Rechargez le dashboard avant l’import.');
+            JsonResponse::send($repository->import($file['tmp_name'], $file['name'], $revision, $user['email']));
         }
-        if ($path === '/admin/catalog/import/preview' && $method === 'POST') {
-            AdminSession::csrf();
-            JsonResponse::send($repository->importPreview(self::body()));
+        if ($path === '/admin/catalog/restore' && $method === 'POST') {
+            CsvAdminSession::csrf();
+            JsonResponse::send($repository->restore(self::body(), $user['email']));
         }
-        if ($path === '/admin/catalog/import/commit' && $method === 'POST') {
-            AdminSession::csrf();
-            JsonResponse::send($repository->importCommit(self::body(), $user['email']));
-        }
-        if (preg_match('#^/admin/trainings/([a-z0-9-]{1,100})/delete-preview$#', $path, $matches) === 1 && $method === 'POST') {
-            AdminSession::csrf();
-            JsonResponse::send($repository->deletionPreview($matches[1], self::body()));
-        }
-        if (preg_match('#^/admin/trainings/([a-z0-9-]{1,100})$#', $path, $matches) === 1 && $method === 'DELETE') {
-            AdminSession::csrf();
-            JsonResponse::send($repository->remove($matches[1], self::body(), $user['email']));
-        }
-        if (preg_match('#^/admin/trainings/([a-z0-9-]{1,100})$#', $path, $matches) === 1 && $method === 'PATCH') {
-            AdminSession::csrf();
-            JsonResponse::send($repository->save($matches[1], self::body(), $user['email']));
-        }
-        throw new ApiException(404, 'route_not_found', 'Cette route de gestion n’existe pas.');
+        throw new ApiException(404, 'route_not_found', 'Cette route n’existe plus dans la gestion CSV simplifiée.');
     }
 }

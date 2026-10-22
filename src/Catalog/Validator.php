@@ -34,7 +34,7 @@ final class Validator
         return checkdate((int) $parts[2], (int) $parts[3], (int) $parts[1]);
     }
 
-    public static function errors(array $catalog): array
+    public static function errors(array $catalog, bool $editorial = true): array
     {
         $errors = [];
         if (($catalog['kind'] ?? null) !== 'forem-training-catalog' || ($catalog['schemaVersion'] ?? null) !== 2) return ['Format de catalogue incompatible.'];
@@ -48,7 +48,7 @@ final class Validator
         }
         $ids = [];
         $photos = [];
-        $check = function (mixed $item, ?string $parentSector = null) use (&$check, &$errors, &$ids, &$photos, $sectors): void {
+        $check = function (mixed $item, ?string $parentSector = null) use (&$check, &$errors, &$ids, &$photos, $sectors, $editorial): void {
             if (!is_array($item) || array_is_list($item)) { $errors[] = 'Fiche invalide.'; return; }
             $id = $item['id'] ?? '';
             if (!is_string($id) || !preg_match('/^[a-z0-9-]{1,100}$/', $id) || isset($ids[$id])) { $errors[] = 'Identifiant invalide ou dupliqué.'; return; }
@@ -72,7 +72,7 @@ final class Validator
                 if (!self::url($location['accessUrl'] ?? null)) $errors[] = "$id : lien d’accès invalide.";
             }
             foreach (['foremUrl' => 'forem', 'photo' => 'https', 'sourceUrl' => 'https', 'videoUrl' => 'youtube'] as $field => $kind) {
-                if (!self::url($item[$field] ?? ($field === 'videoUrl' ? '' : null), $kind) || ($field === 'sourceUrl' && empty($item[$field]))) $errors[] = "$id : $field doit être une URL HTTPS autorisée.";
+                if (!self::url($item[$field] ?? ($field === 'videoUrl' ? '' : null), $kind) || ($editorial && $field === 'sourceUrl' && empty($item[$field]))) $errors[] = "$id : $field doit être une URL HTTPS autorisée.";
             }
             if (!array_key_exists('verifiedAt', $item) || !self::date($item['verifiedAt'])) $errors[] = "$id : date de validation invalide.";
             if (!in_array($item['contentStatus'] ?? '', ['pending', 'partial', 'ready'], true)) $errors[] = "$id : état invalide.";
@@ -80,12 +80,12 @@ final class Validator
             if (!is_bool($item['shortage']['indicated'] ?? null)) $errors[] = "$id : indication de pénurie invalide.";
             if (!is_string($item['shortage']['source'] ?? null) || !trim($item['shortage']['source']) || !array_key_exists('verifiedAt', $item['shortage']) || !self::date($item['shortage']['verifiedAt'])) $errors[] = "$id : source ou date de pénurie invalide.";
             if (isset($item['critical']) && (!is_bool($item['critical']['indicated'] ?? null) || !is_string($item['critical']['source'] ?? null) || !trim($item['critical']['source']) || !array_key_exists('verifiedAt', $item['critical']) || !self::date($item['critical']['verifiedAt']))) $errors[] = "$id : fonction critique invalide.";
-            if (($item['contentStatus'] ?? '') === 'ready') {
+            if ($editorial && ($item['contentStatus'] ?? '') === 'ready') {
                 if (!is_string($item['description'] ?? null) || !trim($item['description']) || empty($item['foremUrl']) || !$locations || empty($item['verifiedAt'])) $errors[] = "$id : une fiche validée exige description, lien Forem, lieu et date de validation.";
                 if (is_array($locations)) foreach ($locations as $location) if (!is_array($location) || !is_string($location['city'] ?? null) || !trim($location['city']) || !is_string($location['address'] ?? null) || !trim($location['address'])) $errors[] = "$id : renseignez la ville et l’adresse de chaque lieu avant validation.";
             }
             if (!empty($item['photo']) && self::url($item['photo'])) {
-                if (!is_string($item['photoAlt'] ?? null) || !trim($item['photoAlt']) || !is_string($item['photoCredit'] ?? null) || !trim($item['photoCredit'])) $errors[] = "$id : renseignez la description et le crédit de l’illustration.";
+                if ($editorial && (!is_string($item['photoAlt'] ?? null) || !trim($item['photoAlt']) || !is_string($item['photoCredit'] ?? null) || !trim($item['photoCredit']))) $errors[] = "$id : renseignez la description et le crédit de l’illustration.";
                 $url = parse_url($item['photo']);
                 $identity = strtolower($url['host']) . ($url['path'] ?? '/') . (in_array(strtolower($url['host']), ['images.unsplash.com', 'plus.unsplash.com', 'images.pexels.com'], true) ? '' : '?' . ($url['query'] ?? ''));
                 if (isset($photos[$identity])) $errors[] = "$id : photo déjà attribuée à {$photos[$identity]}.";

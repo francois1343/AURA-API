@@ -1,123 +1,43 @@
 <?php
-
 declare(strict_types=1);
 
 use Aura\Api\Config;
-use Aura\Api\Database;
-use Aura\Api\Http\JsonResponse;
 use Aura\Api\Http\ApiException;
+use Aura\Api\Http\JsonResponse;
 use Aura\Api\Http\TrainingAdmin;
-use Aura\Api\Repository\TrainingCatalogRepository;
-use Aura\Api\Repository\JobRepository;
-use Aura\Api\Repository\SectorRepository;
+use Aura\Api\Repository\FileCatalogRepository;
 
 require dirname(__DIR__) . '/src/bootstrap.php';
 
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
-$allowedOrigins = Config::list('CORS_ALLOWED_ORIGINS');
-
-if ($origin !== '' && in_array($origin, $allowedOrigins, true)) {
+if ($origin !== '' && in_array($origin, Config::list('CORS_ALLOWED_ORIGINS'), true)) {
     header('Access-Control-Allow-Origin: ' . $origin);
     header('Vary: Origin');
     header('Access-Control-Allow-Credentials: true');
 }
-
-header('Access-Control-Allow-Methods: GET, POST, PATCH, DELETE, OPTIONS');
+header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type, Accept, X-CSRF-Token');
 header('X-Content-Type-Options: nosniff');
 header('Cache-Control: no-store');
-
-if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'OPTIONS') {
-    http_response_code(204);
-    exit;
-}
-
+if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'OPTIONS') { http_response_code(204); exit; }
 $path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
 $path = preg_replace('#^/api/v1(?=/|$)#', '', $path) ?: '/';
 $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
 
 try {
     if (str_starts_with($path, '/admin/')) TrainingAdmin::handle($path, $method, $origin);
-    if ($method !== 'GET') JsonResponse::error('method_not_allowed', 'Cette méthode HTTP n’est pas autorisée.', 405);
-    if ($path === '/catalog') JsonResponse::send((new TrainingCatalogRepository(Database::connection()))->current()['catalog']);
+    if ($method !== 'GET') throw new ApiException(405, 'method_not_allowed', 'Cette méthode HTTP n’est pas autorisée.');
+    if ($path === '/catalog') JsonResponse::send((new FileCatalogRepository())->current());
     if ($path === '/health') {
-        Database::connection()->query('SELECT 1');
-        JsonResponse::send([
-            'data' => [
-                'status' => 'ok',
-                'service' => 'AURA API',
-                'database' => 'connected',
-                'time' => gmdate(DATE_ATOM),
-            ],
-        ]);
+        $status = (new FileCatalogRepository())->status();
+        JsonResponse::send(['data' => ['status' => 'ok', 'service' => 'AURA API', 'storage' => 'csv', 'revision' => $status['revision']]]);
     }
-
-    if ($path === '/sectors') {
-        $items = (new SectorRepository(Database::connection()))->all();
-        JsonResponse::send([
-            'data' => $items,
-            'meta' => ['total' => count($items)],
-        ]);
-    }
-
-    if ($path === '/jobs') {
-        $query = trim((string) ($_GET['q'] ?? ''));
-        $sectorId = trim((string) ($_GET['sector'] ?? ''));
-        $defaultLimit = Config::int('API_DEFAULT_LIMIT', 20);
-        $maxLimit = Config::int('API_MAX_LIMIT', 50);
-        $limit = filter_var($_GET['limit'] ?? $defaultLimit, FILTER_VALIDATE_INT);
-        $offset = filter_var($_GET['offset'] ?? 0, FILTER_VALIDATE_INT);
-
-        if ($limit === false || $limit < 1 || $limit > $maxLimit) {
-            JsonResponse::error('invalid_limit', sprintf('limit doit être compris entre 1 et %d.', $maxLimit), 400);
-        }
-
-        if ($offset === false || $offset < 0) {
-            JsonResponse::error('invalid_offset', 'offset doit être supérieur ou égal à 0.', 400);
-        }
-
-        $result = (new JobRepository(Database::connection()))->search(
-            $query === '' ? null : $query,
-            $sectorId === '' ? null : $sectorId,
-            $limit,
-            $offset,
-        );
-
-        JsonResponse::send([
-            'data' => $result['items'],
-            'meta' => [
-                'total' => $result['total'],
-                'limit' => $limit,
-                'offset' => $offset,
-            ],
-        ]);
-    }
-
-    if (preg_match('#^/jobs/([a-z0-9-]+)$#', $path, $matches) === 1) {
-        $job = (new JobRepository(Database::connection()))->find($matches[1]);
-
-        if ($job === null) {
-            JsonResponse::error('job_not_found', 'Ce métier n’existe pas.', 404);
-        }
-
-        JsonResponse::send(['data' => $job]);
-    }
-
-    JsonResponse::error('route_not_found', 'Cette route API n’existe pas.', 404);
-} catch (ApiException $exception) {
-    JsonResponse::send(['error' => ['code' => $exception->errorCode, 'message' => $exception->getMessage(), 'details' => $exception->details]], $exception->status);
-} catch (Throwable $exception) {
-    $payload = [
-        'error' => [
-            'code' => 'internal_error',
-            'message' => 'Une erreur interne empêche de traiter la requête.',
-        ],
-    ];
-
-    if (Config::bool('APP_DEBUG') && !str_starts_with($path, '/admin/')) {
-        $payload['error']['debug'] = $exception->getMessage();
-    }
-
-    JsonResponse::send($payload, 500);
+    if ($path === '/jobs' || $path === '/sectors' || str_starts_with($path, '/jobs/')) throw new ApiException(410, 'legacy_api_retired', 'L’ancien catalogue métiers est archivé. Utilisez /api/v1/catalog.');
+    throw new ApiException(404, 'route_not_found', 'Cette route API n’existe pas.');
+} catch (ApiException $error) {
+    JsonResponse::send(['error' => ['code' => $error->errorCode, 'message' => $error->getMessage(), 'details' => $error->details]], $error->status);
+} catch (Throwable $error) {
+    error_log('AURA API : ' . $error->getMessage());
+    JsonResponse::send(['error' => ['code' => 'internal_error', 'message' => 'Le service est indisponible. Aucun catalogue incomplet n’a été publié.']], 500);
 }
 

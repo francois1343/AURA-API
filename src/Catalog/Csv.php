@@ -135,7 +135,7 @@ final class Csv
         return $list;
     }
 
-    public static function proposal(string $csv, array $current, string $mode): array
+    public static function proposal(string $csv, array $current, string $mode, bool $minimal = false, bool $trustedSnapshot = false): array
     {
         if (!in_array($mode, ['merge', 'replace'], true)) self::fail('Mode d’import inconnu.');
         $parsed = self::parse($csv);
@@ -171,10 +171,12 @@ final class Csv
                 'description' => $row['description'], 'topics' => self::lines($row['contenu'], $versioned, $line, 'contenu'), 'prerequisites' => self::lines($row['prerequis'], $versioned, $line, 'prerequis'),
                 'extraInfo' => $row['informations_complementaires'], 'duration' => $row['duree'], 'schedule' => $row['horaires'], 'foremUrl' => $row['lien_formation_forem'],
                 'sourceUrl' => $row['source_url'], 'verifiedAt' => self::date($row['date_verification'], $line), 'videoUrl' => $row['lien_video_metier']]);
+            if ($minimal && trim($item['sourceUrl']) === '') $item['sourceUrl'] = $old[$id]['training']['sourceUrl'] ?? '';
             if (($old[$id]['training']['sectorId'] ?? $sectorId) !== $sectorId) $item['orientationStatus'] = 'pending';
             $shortage = self::flag($row['penurie_signalee_dans_liste'], $line);
             $critical = self::flag($row['fonction_critique_signalee_dans_liste'], $line);
             $item['shortage'] = ['indicated' => $shortage, 'source' => $versioned ? $row['source_penurie'] : ($item['shortage']['source'] ?? $row['source_url']), 'verifiedAt' => $versioned ? self::date($row['date_verification_penurie'], $line) : ($item['shortage']['verifiedAt'] ?? null)];
+            if ($minimal && trim($item['shortage']['source']) === '') $item['shortage']['source'] = 'import-csv';
             if ($critical || isset($item['critical']) || ($versioned && $row['source_fonction_critique'] !== '')) $item['critical'] = ['indicated' => $critical, 'source' => $versioned ? $row['source_fonction_critique'] : ($item['critical']['source'] ?? $row['source_url']), 'verifiedAt' => $versioned ? self::date($row['date_verification_fonction_critique'], $line) : ($item['critical']['verifiedAt'] ?? null)];
             if (array_key_exists('badge', $item)) $item['badge'] = $shortage ? 'Métier en pénurie*' : ($critical ? 'Fonction critique*' : '');
             $kind = $versioned ? $row['type_ligne'] : ($variantId !== '' ? 'variante' : 'formation');
@@ -184,7 +186,8 @@ final class Csv
                 $item = array_replace($item, ['contentStatus' => $status, 'photo' => $row['photo_url'], 'photoAlt' => $row['photo_alt'], 'photoCredit' => $row['credit_photo']]);
                 if (!in_array($row['statut_orientation'], ['', 'pending', 'à calibrer'], true)) self::fail("Ligne $line : statut d’orientation inconnu.");
                 // A CSV cannot enable an uncalibrated recommendation by copying an old ID.
-                if ($row['statut_orientation'] !== '' || !isset($old[$id])) $item['orientationStatus'] = 'pending';
+                if ($row['statut_orientation'] !== '' || (!$trustedSnapshot && !isset($old[$id]))) $item['orientationStatus'] = 'pending';
+                elseif ($trustedSnapshot) unset($item['orientationStatus']);
             }
             $location = ['city' => $row['ville'], 'address' => $row['adresse'], 'accessUrl' => $row['plan_acces_url']];
             unset($item['locations']);
@@ -231,8 +234,24 @@ final class Csv
             $positions = array_flip(array_column($current['trainings'], 'id'));
             usort($next['trainings'], fn ($a, $b) => ($positions[$a['id']] ?? PHP_INT_MAX) <=> ($positions[$b['id']] ?? PHP_INT_MAX));
         }
-        Training::invalidateStructuralChanges($current, $next);
-        $errors = Validator::errors($next);
+        if (!$trustedSnapshot) Training::invalidateStructuralChanges($current, $next);
+        if ($minimal) {
+            foreach ($next['trainings'] as &$training) {
+                $items = [&$training];
+                if (isset($training['variants'])) foreach ($training['variants'] as &$variant) $items[] = &$variant;
+                unset($variant);
+                foreach ($items as &$item) {
+                    if (isset($item['critical']) && trim($item['critical']['source']) === '') $item['critical']['source'] = 'import-csv';
+                    if (($item['contentStatus'] ?? '') === 'ready' && (!trim($item['description']) || !$item['foremUrl'] || !$item['locations'] || !$item['verifiedAt'])) {
+                        $item['contentStatus'] = 'partial';
+                        $warnings[] = $item['title'] . ' : fiche incomplète conservée sans statut de validation.';
+                    }
+                }
+                unset($item, $items);
+            }
+            unset($training);
+        }
+        $errors = Validator::errors($next, editorial: !$minimal);
         if ($errors) self::fail('Le fichier contient des données invalides. Le catalogue actif est conservé.', $errors);
         $diff = Training::changes($current, $next);
         $newCount = count($diff['added']);
